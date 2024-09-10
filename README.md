@@ -52,12 +52,18 @@
 - Thiết lập cá nhân (Personal Settings): Cho phép người dùng thiết lập các tùy chọn cá nhân như ngôn ngữ, múi giờ, chủ đề.
 
 ## Thông tin kế hoạch thực hiện
-| Người thực hiện    | Công việc               |
+| Người thực hiện    | Công việc đảm nhận               |
 |--------------------|------------------------------|
-| Đinh Văn Tài       | 8. Quản lý người dùng(login,register,admin,..)           |      
+| Đinh Văn Tài       | 8. Xây dụng giao diện người dùng(login,register,admin,..)           |      
 |                    | 1. Tạo Task công việc(crud, gim công việc)          |    
-| Hồ thiên Tỷ        |                              |
-| Hồ Ngọc Tùng       |                              |
+|                    | 7. Sao lưu tài khoản, thiết bị         |   
+| Hồ thiên Tỷ        | 9. Xây dựng giao diện, cho phép thiết lập giao diện(đổi màu tùy chỉnh...)      |
+|                    | 4. Thông báo, nhắc nhở hết hạn, chọn nhắc nhở          | 
+|                    | 5. Tạo comments(bình luận,...), share....           | 
+| Hồ Ngọc Tùng       | 3. Tạo các danh mục và nhãn(loại công việc, thêm loại)                             |
+|                    | 2. Đặt thời gian, thời hạn, lặp lại công việc         | 
+|                    | 6. Thống kê việc hoàn thành, tiến độ...          | 
+
 
 
 
