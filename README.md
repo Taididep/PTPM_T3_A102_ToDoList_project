@@ -4,9 +4,9 @@
 
 | MSSV       | Họ và tên    | Vai trò |
 |------------|--------------|---------|
-| 2001216114 | Đinh Văn Tài | Leader |
-| 2001216301 | Hồ thiên Tỷ  | Member |
-| 2001216286 | Hồ Ngọc Tùng | Member |
+| 2001216114 | Đinh Văn Tài | Leader  |
+| 2001216301 | Hồ thiên Tỷ  | Member  |
+| 2001216286 | Hồ Ngọc Tùng | Member  |
 
 
 ## Công nghệ sử dụng
@@ -52,3 +52,14 @@
 - Thiết lập cá nhân (Personal Settings): Cho phép người dùng thiết lập các tùy chọn cá nhân như ngôn ngữ, múi giờ, chủ đề.
 
 ## Thông tin kế hoạch thực hiện
+| Người thực hiện    | Công việc               |
+|--------------------|------------------------------|
+| Đinh Văn Tài       | 8. Quản lý người dùng(login,register,admin,..)           |      
+|                    | 1. Tạo Task công việc(crud, gim công việc)          |    
+| Hồ thiên Tỷ        |                              |
+| Hồ Ngọc Tùng       |                              |
+
+
+
+
+
