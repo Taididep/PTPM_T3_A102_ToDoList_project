@@ -10,11 +10,13 @@
 
 
 ## Công nghệ sử dụng
-- Visual Studio 2020
+- Visual Studio 2020 (C#)
 - SQL Server Management Studio
 
 ## Thông tin mô tả dự án
-
+- Giúp người dùng lên kế hoạch, theo dõi và quản lý các nhiệm vụ và sự kiện quan trọng.
+- Cung cấp công cụ để phân loại, ưu tiên và theo dõi tiến độ công việc.
+- Cung cấp giao diện rõ ràng và dễ sử dụng để người dùng
 ## Thông tin mô tả chi tiết chức năng
 ### 1. Quản lý Công việc (Task Management)
 - Tạo công việc (Create Task): Người dùng có thể tạo các công việc mới với tiêu đề, mô tả, ngày đến hạn, và các nhãn hoặc danh mục.
@@ -49,3 +51,4 @@
 - Giao diện tùy chỉnh (Customizable Interface): Cho phép người dùng tùy chỉnh giao diện ứng dụng theo sở thích cá nhân.
 - Thiết lập cá nhân (Personal Settings): Cho phép người dùng thiết lập các tùy chọn cá nhân như ngôn ngữ, múi giờ, chủ đề.
 
+## Thông tin kế hoạch thực hiện
