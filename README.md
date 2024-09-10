@@ -5,13 +5,14 @@
 | MSSV       | Họ và tên    | Vai trò |
 |------------|--------------|---------|
 | 2001216114 | Đinh Văn Tài | Leader  |
-| 2001216301 | Hồ thiên Tỷ  | Member  |
+| 2001216301 | Hồ Thiên Tỷ  | Member  |
 | 2001216286 | Hồ Ngọc Tùng | Member  |
 
 
 ## Công nghệ sử dụng
-- Visual Studio 2020 (C#)
-- SQL Server Management Studio
+- Visual Studio 2020 (Winform C#)
+- visual Studio Code (Webform PHP)
+- SQL Server, MySQL
 
 ## Thông tin mô tả dự án
 - Giúp người dùng lên kế hoạch, theo dõi và quản lý các nhiệm vụ và sự kiện quan trọng.
@@ -51,18 +52,18 @@
 - Giao diện tùy chỉnh (Customizable Interface): Cho phép người dùng tùy chỉnh giao diện ứng dụng theo sở thích cá nhân.
 - Thiết lập cá nhân (Personal Settings): Cho phép người dùng thiết lập các tùy chọn cá nhân như ngôn ngữ, múi giờ, chủ đề.
 
-## Thông tin kế hoạch thực hiện
-| Người thực hiện    | Công việc đảm nhận               |
-|--------------------|------------------------------|
-| Đinh Văn Tài       | 8. Xây dụng giao diện người dùng(login,register,admin,..)           |      
-|                    | 1. Tạo Task công việc(crud, gim công việc)          |    
-|                    | 7. Sao lưu tài khoản, thiết bị         |   
-| Hồ thiên Tỷ        | 9. Xây dựng giao diện, cho phép thiết lập giao diện(đổi màu tùy chỉnh...)      |
-|                    | 4. Thông báo, nhắc nhở hết hạn, chọn nhắc nhở          | 
-|                    | 5. Tạo comments(bình luận,...), share....           | 
-| Hồ Ngọc Tùng       | 3. Tạo các danh mục và nhãn(loại công việc, thêm loại)                             |
-|                    | 2. Đặt thời gian, thời hạn, lặp lại công việc         | 
-|                    | 6. Thống kê việc hoàn thành, tiến độ...          | 
+## 📝Thông tin kế hoạch thực hiện
+| Người thực hiện    | Công việc đảm nhận                                                          | Tiến độ  |
+|--------------------|-----------------------------------------------------------------------------|:--------:|
+| Đinh Văn Tài       | 8. Xây dụng giao diện người dùng(login,register,admin,..)                   |     0%   |      
+|                    | 1. Tạo Task công việc(crud, gim công việc)                                  |     0%   |    
+|                    | 7. Sao lưu tài khoản, thiết bị                                              |     0%   |   
+| Hồ thiên Tỷ        | 9. Xây dựng giao diện, cho phép thiết lập giao diện(đổi màu tùy chỉnh...)   |     0%   |
+|                    | 4. Thông báo, nhắc nhở hết hạn, chọn nhắc nhở                               |     0%   | 
+|                    | 5. Tạo comments(bình luận,...), share....                                   |     0%   | 
+| Hồ Ngọc Tùng       | 3. Tạo các danh mục và nhãn(loại công việc, thêm loại)                      |     0%   |
+|                    | 2. Đặt thời gian, thời hạn, lặp lại công việc                               |     0%   | 
+|                    | 6. Thống kê việc hoàn thành, tiến độ...                                     |     0%   | 
 
 
 
