@@ -1,6 +1,6 @@
 # Phần mềm quản lý thời gian và công việc(To-do-list)
 
-## Thành viên nhóm
+## 👨‍👨‍👦Thành viên nhóm
 
 | MSSV       | Họ và tên    | Vai trò |
 |------------|--------------|---------|
