@@ -1,8 +1,3 @@
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.csproj.AssemblyReference.cache
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.uc_configure.resources
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.uc_login.resources
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.csproj.GenerateResource.cache
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.csproj.CoreCompileInputs.cache
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\bin\Debug\TDL.Client.UserControls.dll
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\bin\Debug\TDL.Client.UserControls.pdb
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\bin\Debug\TDL.Client.Controls.dll
@@ -11,6 +6,11 @@ D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserC
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\bin\Debug\TDL.Client.Controls.pdb
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\bin\Debug\TDL.Repositories.pdb
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\bin\Debug\TDL.Services.pdb
+D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.csproj.AssemblyReference.cache
+D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.uc_configure.resources
+D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.uc_login.resources
+D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.csproj.GenerateResource.cache
+D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.csproj.CoreCompileInputs.cache
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Clie.5E9FCD85.Up2Date
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.dll
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.UserControls\obj\Debug\TDL.Client.UserControls.pdb

@@ -69,7 +69,7 @@
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(100, 20);
             this.txt_password.TabIndex = 9;
-            this.txt_password.Text = "tai";
+            this.txt_password.Text = "123456";
             this.txt_password.UseSystemPasswordChar = true;
             // 
             // txt_username
@@ -78,7 +78,7 @@
             this.txt_username.Name = "txt_username";
             this.txt_username.Size = new System.Drawing.Size(100, 20);
             this.txt_username.TabIndex = 8;
-            this.txt_username.Text = "tai";
+            this.txt_username.Text = "admin";
             // 
             // uc_login
             // 

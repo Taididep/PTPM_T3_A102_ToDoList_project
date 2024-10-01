@@ -34,5 +34,16 @@ namespace TDL.Client.Properties {
                 this["Cnn"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=WINDOWS-10;Initial Catalog=Module_DN;User ID=sa;Password=sa;Encrypt=T" +
+            "rue;TrustServerCertificate=True")]
+        public string Module_DNConnectionString {
+            get {
+                return ((string)(this["Module_DNConnectionString"]));
+            }
+        }
     }
 }

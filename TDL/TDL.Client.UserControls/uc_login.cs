@@ -14,6 +14,7 @@ namespace TDL.Client.UserControls
         string _cnn;
         SQLManagement sqlMangement = new SQLManagement();
         UserManagement userManagement = new UserManagement();
+        string _tenDangNhap;
 
 
         public event EventHandler GetChange_login;
@@ -31,6 +32,7 @@ namespace TDL.Client.UserControls
         }
 
         public bool IsLogin { get => _isLogin; set => _isLogin = value; }
+        public string TenDangNhap { get => _tenDangNhap; set => _tenDangNhap = value; }
 
         private void btn_login_Click(object sender, EventArgs e)
         {
@@ -74,6 +76,7 @@ namespace TDL.Client.UserControls
                 return;
             }
             IsLogin = true;
+            _tenDangNhap = txt_username.Text;
             GetChange_login.Invoke(this, EventArgs.Empty);
 
         }

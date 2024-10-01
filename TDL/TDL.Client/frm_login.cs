@@ -27,13 +27,14 @@ namespace TDL.Client
         {
             if(uc_login.IsLogin)
             {
-                MessageBox.Show("Đăng nhập thành công");
+                //MessageBox.Show("Đăng nhập thành công");
 
                 if (Program.mainForm == null || Program.mainForm.IsDisposed)
                 {
                     Program.mainForm = new frm_main();
                 }
-                Hide();
+                this.Visible = false;
+                Program.mainForm.TenDangNhap = uc_login.TenDangNhap;
                 Program.mainForm.Show();
             }
         }
