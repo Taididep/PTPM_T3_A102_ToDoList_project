@@ -12,17 +12,19 @@ namespace TDL.Service
         // 2 = Chuỗi cấu hình không phù hợp
         // 0 =  Chuỗi cấu hình hợp lệ
 
-        public int Check_Config(string pcnn, SQLClass sqldt)
+        public int Check_Config(string pcnn)
         {
             if (string.IsNullOrWhiteSpace(pcnn)) { return 1; }
 
-            sqldt.CreateConnection(pcnn);   // Tạo kết nối
-            bool isConnected = sqldt.TestConnection();  // Kiểm tra kết nối
+            SQLClass sqldt = new SQLClass();
+            sqldt.CreateConnection(pcnn);
+            bool isConnected = sqldt.TestConnection();
 
             if (!isConnected) { return 2; }
 
             return 0;
         }
+
 
     }
 }

@@ -5,17 +5,63 @@ USE DB_TDL
 GO
 
 
--- Tạo bảng Users
+-- 1
 CREATE TABLE Users (
-    UserId INT IDENTITY(1,1) PRIMARY KEY,
-    Username NVARCHAR(50) NOT NULL UNIQUE,
-    Password NVARCHAR(50) NOT NULL
+    Username NVARCHAR(50) PRIMARY KEY NOT NULL,
+    Password NVARCHAR(50) NOT NULL,
+    Active BIT NOT NULL DEFAULT 1
 );
+-- 2
+CREATE TABLE Roles (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    RoleName NVARCHAR(50) NOT NULL,
+    Note NVARCHAR(255) NULL
+);
+-- 3
+CREATE TABLE UserGroups (
+    Username NVARCHAR(50) NOT NULL,
+    RoleID INT NOT NULL,               
+    Note NVARCHAR(255) NULL,
+    PRIMARY KEY (Username, RoleID),
+    FOREIGN KEY (Username) REFERENCES Users(Username),
+    FOREIGN KEY (RoleID) REFERENCES Roles(ID)
+);
+-- 4
+-- Tạo bảng UserInfo
+CREATE TABLE UserInfos (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    Username NVARCHAR(50) NOT NULL,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    Email NVARCHAR(100) NULL,
+    PhoneNumber NVARCHAR(20) NULL,
+    FOREIGN KEY (Username) REFERENCES Users(Username)
+);
+
+---------------------------------------------------------------------------
+
+INSERT INTO Users (Username, Password, Active)
+VALUES ('tai', 'tai', 1),
+       ('ty', 'ty', 1),
+       ('tung', 'tung', 1);
+
+
+
+
+
+	   select * from Users where Username='tai' and Password ='tai'
+
+
+
+
+
+
+
 
 
 
 CREATE TABLE Tasks (
-    TaskId INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     UserId INT NOT NULL,
     Title NVARCHAR(100) NOT NULL,
     Description NVARCHAR(MAX),
@@ -26,7 +72,7 @@ CREATE TABLE Tasks (
 
 
 CREATE TABLE Categories (
-    CategoryId INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     UserId INT NOT NULL,
     CategoryName NVARCHAR(100) NOT NULL,
     FOREIGN KEY (UserId) REFERENCES Users(UserId)
@@ -34,7 +80,7 @@ CREATE TABLE Categories (
 
 
 CREATE TABLE TaskCategories (
-    TaskId INT,
+    Id INT,
     CategoryId INT,
     PRIMARY KEY (TaskId, CategoryId),
     FOREIGN KEY (TaskId) REFERENCES Tasks(TaskId),
@@ -44,7 +90,7 @@ CREATE TABLE TaskCategories (
 
 
 CREATE TABLE Reminders (
-    ReminderId INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     TaskId INT NOT NULL,
     ReminderDate DATETIME NOT NULL,
     FOREIGN KEY (TaskId) REFERENCES Tasks(TaskId)
@@ -53,7 +99,7 @@ CREATE TABLE Reminders (
 
 
 CREATE TABLE TaskHistory (
-    HistoryId INT IDENTITY(1,1) PRIMARY KEY,
+    Id INT IDENTITY(1,1) PRIMARY KEY,
     TaskId INT NOT NULL,
     ChangedDate DATETIME NOT NULL,
     OldStatus BIT,
@@ -68,6 +114,7 @@ VALUES
 ('taidz', 'taidz'),
 ('hothienty', 'hothienty'),
 ('hongoctung', 'hongoctung');
+
 
 INSERT INTO Tasks (UserId, Title, Description, DueDate, IsCompleted)
 VALUES (1, N'Hoàn thành báo cáo', N'Hoàn thành báo cáo cho dự án X', '2024-09-30', 0),

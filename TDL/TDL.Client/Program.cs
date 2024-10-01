@@ -8,6 +8,8 @@ namespace TDL.Client
 {
     internal static class Program
     {
+        public static frm_main mainForm = null;
+        public static frm_login loginForm = null; 
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +18,8 @@ namespace TDL.Client
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_login());
+            loginForm = new frm_login();
+            Application.Run(loginForm);
         }
     }
 }

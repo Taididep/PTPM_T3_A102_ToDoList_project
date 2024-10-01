@@ -3,63 +3,79 @@
   "WorkspaceRootPath": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client.usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|solutionrelative:tdl.client.usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|solutionrelative:tdl.client\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1E4E933-3CC7-44E6-A905-E8F55FBDA462}|TDL.Services\\TDL.Services.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.services\\sqlmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1E4E933-3CC7-44E6-A905-E8F55FBDA462}|TDL.Services\\TDL.Services.csproj|solutionrelative:tdl.services\\sqlmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1E4E933-3CC7-44E6-A905-E8F55FBDA462}|TDL.Services\\TDL.Services.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.services\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1E4E933-3CC7-44E6-A905-E8F55FBDA462}|TDL.Services\\TDL.Services.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.services\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1E4E933-3CC7-44E6-A905-E8F55FBDA462}|TDL.Services\\TDL.Services.csproj|solutionrelative:tdl.services\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client.usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|solutionrelative:tdl.client.usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B1E4E933-3CC7-44E6-A905-E8F55FBDA462}|TDL.Services\\TDL.Services.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.services\\sqlmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E4E933-3CC7-44E6-A905-E8F55FBDA462}|TDL.Services\\TDL.Services.csproj|solutionrelative:tdl.services\\sqlmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB1A642-D136-44C9-8692-442AF991A28F}|TDL.Repositories\\TDL.Repositories.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.repositories\\databaseassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADB1A642-D136-44C9-8692-442AF991A28F}|TDL.Repositories\\TDL.Repositories.csproj|solutionrelative:tdl.repositories\\databaseassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB1A642-D136-44C9-8692-442AF991A28F}|TDL.Repositories\\TDL.Repositories.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.repositories\\sqlclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADB1A642-D136-44C9-8692-442AF991A28F}|TDL.Repositories\\TDL.Repositories.csproj|solutionrelative:tdl.repositories\\sqlclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|solutionrelative:tdl.client\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|solutionrelative:tdl.client\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|solutionrelative:tdl.client\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|solutionrelative:tdl.client\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|solutionrelative:tdl.client\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client.usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|solutionrelative:tdl.client.usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|solutionrelative:tdl.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client\\frm_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client.usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|solutionrelative:tdl.client.usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client\\frm_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|solutionrelative:tdl.client\\frm_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client\\frm_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E0FF78-07C5-4DCE-A249-0E4DA815DFEB}|TDL.Client\\TDL.Client.csproj|solutionrelative:tdl.client\\frm_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB1A642-D136-44C9-8692-442AF991A28F}|TDL.Repositories\\TDL.Repositories.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.repositories\\sqlclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADB1A642-D136-44C9-8692-442AF991A28F}|TDL.Repositories\\TDL.Repositories.csproj|solutionrelative:tdl.repositories\\sqlclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB1A642-D136-44C9-8692-442AF991A28F}|TDL.Repositories\\TDL.Repositories.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.repositories\\databaseassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADB1A642-D136-44C9-8692-442AF991A28F}|TDL.Repositories\\TDL.Repositories.csproj|solutionrelative:tdl.repositories\\databaseassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client.usercontrols\\uc_configure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client.usercontrols\\uc_configure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|solutionrelative:tdl.client.usercontrols\\uc_configure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client.usercontrols\\uc_configure.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client.usercontrols\\uc_configure.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|solutionrelative:tdl.client.usercontrols\\uc_configure.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client.usercontrols\\uc_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client.usercontrols\\uc_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AFCAB97-6F0E-4004-A658-E6F95AAE2F8F}|TDL.Client.UserControls\\TDL.Client.UserControls.csproj|solutionrelative:tdl.client.usercontrols\\uc_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3979739A-4A9D-4A82-B12A-F5FD77BF0B01}|TDL.Client.Controls\\TDL.Client.Controls.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client.controls\\txt_username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3979739A-4A9D-4A82-B12A-F5FD77BF0B01}|TDL.Client.Controls\\TDL.Client.Controls.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client.controls\\txt_username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3979739A-4A9D-4A82-B12A-F5FD77BF0B01}|TDL.Client.Controls\\TDL.Client.Controls.csproj|solutionrelative:tdl.client.controls\\txt_username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3979739A-4A9D-4A82-B12A-F5FD77BF0B01}|TDL.Client.Controls\\TDL.Client.Controls.csproj|d:\\study\\2. smart application software development\\project2\\tdl\\tdl.client.controls\\txt_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3979739A-4A9D-4A82-B12A-F5FD77BF0B01}|TDL.Client.Controls\\TDL.Client.Controls.csproj|D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\tdl.client.controls\\txt_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3979739A-4A9D-4A82-B12A-F5FD77BF0B01}|TDL.Client.Controls\\TDL.Client.Controls.csproj|solutionrelative:tdl.client.controls\\txt_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,63 +86,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "uc_login.cs",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_login.cs",
               "RelativeDocumentMoniker": "TDL.Client.UserControls\\uc_login.cs",
               "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_login.cs",
               "RelativeToolTip": "TDL.Client.UserControls\\uc_login.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB8AAAANAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAA8wEcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T09:35:54.387Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frm_login.cs",
-              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_login.cs",
-              "RelativeDocumentMoniker": "TDL.Client\\frm_login.cs",
-              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_login.cs",
-              "RelativeToolTip": "TDL.Client\\frm_login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T09:34:12.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserManagement.cs",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Services\\UserManagement.cs",
               "RelativeDocumentMoniker": "TDL.Services\\UserManagement.cs",
               "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Services\\UserManagement.cs",
               "RelativeToolTip": "TDL.Services\\UserManagement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T09:33:40.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\Program.cs",
-              "RelativeDocumentMoniker": "TDL.Client\\Program.cs",
-              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\Program.cs",
-              "RelativeToolTip": "TDL.Client\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:07:27.225Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SQLManagement.cs",
+              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Services\\SQLManagement.cs",
+              "RelativeDocumentMoniker": "TDL.Services\\SQLManagement.cs",
+              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Services\\SQLManagement.cs",
+              "RelativeToolTip": "TDL.Services\\SQLManagement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T09:31:16.956Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frm_login.cs [Design]",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_login.cs",
               "RelativeDocumentMoniker": "TDL.Client\\frm_login.cs",
@@ -138,95 +143,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SQLManagement.cs",
-              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Services\\SQLManagement.cs",
-              "RelativeDocumentMoniker": "TDL.Services\\SQLManagement.cs",
-              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Services\\SQLManagement.cs",
-              "RelativeToolTip": "TDL.Services\\SQLManagement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T09:31:16.956Z",
+              "DocumentIndex": 5,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "TDL.Client\\Properties\\Settings.settings",
+              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\Properties\\Settings.settings",
+              "RelativeToolTip": "TDL.Client\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-09-24T09:50:35.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frm_login.Designer.cs",
-              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_login.Designer.cs",
-              "RelativeDocumentMoniker": "TDL.Client\\frm_login.Designer.cs",
-              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_login.Designer.cs",
-              "RelativeToolTip": "TDL.Client\\frm_login.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T09:35:05.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "uc_login.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_login.cs",
-              "RelativeDocumentMoniker": "TDL.Client.UserControls\\uc_login.cs",
-              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_login.cs [Design]",
-              "RelativeToolTip": "TDL.Client.UserControls\\uc_login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:10:15.771Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "SQLClass.cs",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Repositories\\SQLClass.cs",
               "RelativeDocumentMoniker": "TDL.Repositories\\SQLClass.cs",
               "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Repositories\\SQLClass.cs",
               "RelativeToolTip": "TDL.Repositories\\SQLClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAYwOEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T09:32:53.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "DatabaseAssistant.cs",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Repositories\\DatabaseAssistant.cs",
               "RelativeDocumentMoniker": "TDL.Repositories\\DatabaseAssistant.cs",
               "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Repositories\\DatabaseAssistant.cs",
               "RelativeToolTip": "TDL.Repositories\\DatabaseAssistant.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T09:33:11.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_login.cs",
+              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_login.cs",
+              "RelativeDocumentMoniker": "TDL.Client\\frm_login.cs",
+              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_login.cs",
+              "RelativeToolTip": "TDL.Client\\frm_login.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T09:34:12.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frm_main.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_main.cs",
+              "RelativeDocumentMoniker": "TDL.Client\\frm_main.cs",
+              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_main.cs [Design]",
+              "RelativeToolTip": "TDL.Client\\frm_main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T09:52:20.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frm_main.cs",
+              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_main.cs",
+              "RelativeDocumentMoniker": "TDL.Client\\frm_main.cs",
+              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_main.cs",
+              "RelativeToolTip": "TDL.Client\\frm_main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T09:52:22.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "uc_login.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_login.cs",
+              "RelativeDocumentMoniker": "TDL.Client.UserControls\\uc_login.cs",
+              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_login.cs [Design]",
+              "RelativeToolTip": "TDL.Client.UserControls\\uc_login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T08:10:15.771Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\Program.cs",
+              "RelativeDocumentMoniker": "TDL.Client\\Program.cs",
+              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\Program.cs",
+              "RelativeToolTip": "TDL.Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T08:07:27.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frm_main.Designer.cs",
+              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_main.Designer.cs",
+              "RelativeDocumentMoniker": "TDL.Client\\frm_main.Designer.cs",
+              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_main.Designer.cs",
+              "RelativeToolTip": "TDL.Client\\frm_main.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:42:22.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frm_login.Designer.cs",
+              "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_login.Designer.cs",
+              "RelativeDocumentMoniker": "TDL.Client\\frm_login.Designer.cs",
+              "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client\\frm_login.Designer.cs",
+              "RelativeToolTip": "TDL.Client\\frm_login.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T09:35:05.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "uc_configure.cs [Design]",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_configure.cs",
               "RelativeDocumentMoniker": "TDL.Client.UserControls\\uc_configure.cs",
               "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_configure.cs [Design]",
               "RelativeToolTip": "TDL.Client.UserControls\\uc_configure.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:52:54.492Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-24T08:52:54.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "uc_configure.resx",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_configure.resx",
               "RelativeDocumentMoniker": "TDL.Client.UserControls\\uc_configure.resx",
               "ToolTip": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_configure.resx",
               "RelativeToolTip": "TDL.Client.UserControls\\uc_configure.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-09-24T08:53:59.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T08:53:59.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "uc_login.Designer.cs",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.UserControls\\uc_login.Designer.cs",
               "RelativeDocumentMoniker": "TDL.Client.UserControls\\uc_login.Designer.cs",
@@ -234,12 +294,11 @@
               "RelativeToolTip": "TDL.Client.UserControls\\uc_login.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:10:33.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T08:10:33.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "txt_username.cs",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.Controls\\txt_username.cs",
               "RelativeDocumentMoniker": "TDL.Client.Controls\\txt_username.cs",
@@ -247,12 +306,11 @@
               "RelativeToolTip": "TDL.Client.Controls\\txt_username.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:09:26.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T08:09:26.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "txt_password.cs",
               "DocumentMoniker": "D:\\Study\\2. Smart Application Software Development\\Project2\\TDL\\TDL.Client.Controls\\txt_password.cs",
               "RelativeDocumentMoniker": "TDL.Client.Controls\\txt_password.cs",
@@ -260,8 +318,7 @@
               "RelativeToolTip": "TDL.Client.Controls\\txt_password.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:08:05.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T08:08:05.776Z"
             }
           ]
         }

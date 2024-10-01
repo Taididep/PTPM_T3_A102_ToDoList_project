@@ -31,8 +31,8 @@
             this.btn_login = new System.Windows.Forms.Button();
             this.lb_password = new System.Windows.Forms.Label();
             this.lb_username = new System.Windows.Forms.Label();
-            this.txt_username = new TDL.Client.Controls.txt_username();
             this.txt_password = new TDL.Client.Controls.txt_password();
+            this.txt_username = new TDL.Client.Controls.txt_username();
             this.SuspendLayout();
             // 
             // btn_login
@@ -43,6 +43,7 @@
             this.btn_login.TabIndex = 7;
             this.btn_login.Text = "Login";
             this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // lb_password
             // 
@@ -62,20 +63,22 @@
             this.lb_username.TabIndex = 5;
             this.lb_username.Text = "Username";
             // 
-            // txt_username
-            // 
-            this.txt_username.Location = new System.Drawing.Point(80, 16);
-            this.txt_username.Name = "txt_username";
-            this.txt_username.Size = new System.Drawing.Size(100, 20);
-            this.txt_username.TabIndex = 8;
-            // 
             // txt_password
             // 
             this.txt_password.Location = new System.Drawing.Point(80, 42);
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(100, 20);
             this.txt_password.TabIndex = 9;
+            this.txt_password.Text = "tai";
             this.txt_password.UseSystemPasswordChar = true;
+            // 
+            // txt_username
+            // 
+            this.txt_username.Location = new System.Drawing.Point(80, 16);
+            this.txt_username.Name = "txt_username";
+            this.txt_username.Size = new System.Drawing.Size(100, 20);
+            this.txt_username.TabIndex = 8;
+            this.txt_username.Text = "tai";
             // 
             // uc_login
             // 

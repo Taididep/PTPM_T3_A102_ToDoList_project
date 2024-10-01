@@ -1,6 +1,6 @@
 ﻿namespace TDL.Client
 {
-    partial class frm_login
+    partial class frm_main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uc_login = new TDL.Client.UserControls.uc_login();
             this.SuspendLayout();
             // 
-            // uc_login
-            // 
-            this.uc_login.Cnn = null;
-            this.uc_login.Location = new System.Drawing.Point(102, 36);
-            this.uc_login.Name = "uc_login";
-            this.uc_login.Size = new System.Drawing.Size(205, 117);
-            this.uc_login.TabIndex = 0;
-            this.uc_login.Load += new System.EventHandler(this.Uc_login_Load);
-            // 
-            // frm_login
+            // frm_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(565, 242);
-            this.Controls.Add(this.uc_login);
-            this.Name = "frm_login";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "frm_main";
+            this.Text = "frm_Main";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frm_main_FormClosed);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private UserControls.uc_login uc_login;
     }
 }
-

@@ -1,9 +1,9 @@
+D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\obj\Debug\TDL.Services.csproj.AssemblyReference.cache
+D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\obj\Debug\TDL.Services.csproj.CoreCompileInputs.cache
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\bin\Debug\TDL.Services.dll
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\bin\Debug\TDL.Services.pdb
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\bin\Debug\TDL.Repositories.dll
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\bin\Debug\TDL.Repositories.pdb
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\obj\Debug\TDL.Services.csproj.AssemblyReference.cache
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\obj\Debug\TDL.Services.csproj.CoreCompileInputs.cache
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\obj\Debug\TDL.Serv.A9A94C2B.Up2Date
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\obj\Debug\TDL.Services.dll
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Services\obj\Debug\TDL.Services.pdb

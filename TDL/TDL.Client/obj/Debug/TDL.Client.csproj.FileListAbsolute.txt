@@ -17,3 +17,4 @@ D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client\bin\D
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client\bin\Debug\TDL.Services.dll
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client\bin\Debug\TDL.Repositories.pdb
 D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client\bin\Debug\TDL.Services.pdb
+D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client\obj\Debug\TDL.Client.frm_main.resources

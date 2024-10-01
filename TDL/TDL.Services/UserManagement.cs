@@ -1,5 +1,7 @@
-﻿using System.Data.SqlClient;
-using System.Data;
+﻿using System.Data;
+using System.Collections.Generic;
+using TDL.Repositories;
+using System.Data.SqlClient;
 
 namespace TDL.Service
 {
@@ -22,9 +24,11 @@ namespace TDL.Service
             /// </summary>
             Success
         }
+
         public LoginResult Check_User(string pUser, string pPass, string pcnn)
         {
-            SqlDataAdapter daUser = new SqlDataAdapter("select * from QL_NguoiDung where TenDangNhap='" + pUser + "' and MatKhau ='" + pPass + "'", pcnn);
+           
+            SqlDataAdapter daUser = new SqlDataAdapter("select * from QL_NguoiDung where TenDangNhap ='" + pUser + "' and MatKhau ='" + pPass + "'", pcnn);
             DataTable dt = new DataTable();
             daUser.Fill(dt);
             if (dt.Rows.Count == 0)
