@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,11 +7,20 @@ using System.Windows.Forms;
 
 namespace UC.Controls
 {
-    public partial class txt_Password : UserControl
+    public class Txt_password : TextBox
     {
-        public txt_Password()
+        public Txt_password()
         {
-            InitializeComponent();
+            this.KeyPress += Txt_password_KeyPress;
+            this.UseSystemPasswordChar = true;
+        }
+
+        private void Txt_password_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter) // Kiểm tra nếu người dùng nhấn phím Enter
+            {
+                e.Handled = true; // Ngăn chặn beep mặc định
+            }
         }
     }
 }

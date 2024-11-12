@@ -7,3 +7,12 @@ D:\Learning\2. Phat trien ung dung\DOAN\TDL\DAL\obj\Debug\DAL.csproj.CoreCompile
 D:\Learning\2. Phat trien ung dung\DOAN\TDL\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Learning\2. Phat trien ung dung\DOAN\TDL\DAL\obj\Debug\DAL.dll
 D:\Learning\2. Phat trien ung dung\DOAN\TDL\DAL\obj\Debug\DAL.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\bin\Debug\DAL.dll
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\bin\Debug\DAL.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\bin\Debug\DTO.dll
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\bin\Debug\DTO.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\obj\Debug\DAL.dll
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\obj\Debug\DAL.pdb
