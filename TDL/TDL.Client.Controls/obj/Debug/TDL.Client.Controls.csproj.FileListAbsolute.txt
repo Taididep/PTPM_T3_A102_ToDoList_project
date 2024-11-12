@@ -1,6 +1,0 @@
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.Controls\bin\Debug\TDL.Client.Controls.dll
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.Controls\bin\Debug\TDL.Client.Controls.pdb
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.Controls\obj\Debug\TDL.Client.Controls.csproj.AssemblyReference.cache
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.Controls\obj\Debug\TDL.Client.Controls.csproj.CoreCompileInputs.cache
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.Controls\obj\Debug\TDL.Client.Controls.dll
-D:\Study\2. Smart Application Software Development\Project2\TDL\TDL.Client.Controls\obj\Debug\TDL.Client.Controls.pdb

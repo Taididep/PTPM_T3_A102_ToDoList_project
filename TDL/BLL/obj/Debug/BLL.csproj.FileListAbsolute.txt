@@ -1,0 +1,11 @@
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\bin\Debug\BLL.dll
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\bin\Debug\BLL.pdb
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\bin\Debug\DAL.dll
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\bin\Debug\DTO.dll
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\bin\Debug\DAL.pdb
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\bin\Debug\DTO.pdb
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\obj\Debug\BLL.dll
+D:\Learning\2. Phat trien ung dung\DOAN\TDL\BLL\obj\Debug\BLL.pdb
