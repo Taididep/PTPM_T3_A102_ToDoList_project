@@ -42,8 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CongViecBLL.cs" />
+    <Compile Include="CongViecDanhMucBLL.cs" />
+    <Compile Include="DanhMucBLL.cs" />
+    <Compile Include="LichSuCongViecBLL.cs" />
+    <Compile Include="NhacNhoBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaiKhoan\DM_ManHinhBLL.cs" />
+    <Compile Include="TaiKhoan\QL_NguoiDungBLL.cs" />
+    <Compile Include="TaiKhoan\QL_NguoiDungNhomNguoiDungBLL.cs" />
+    <Compile Include="TaiKhoan\QL_NhomNguoiDungBLL.cs" />
+    <Compile Include="TaiKhoan\QL_PhanQuyenBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

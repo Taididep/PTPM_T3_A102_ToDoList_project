@@ -48,11 +48,11 @@
     <Compile Include="Controls\Txt_username.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UserControls\Uc_giaodien.cs">
+    <Compile Include="UserControls\Uc_congViec.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\Uc_giaodien.Designer.cs">
-      <DependentUpon>Uc_giaodien.cs</DependentUpon>
+    <Compile Include="UserControls\Uc_congViec.Designer.cs">
+      <DependentUpon>Uc_congViec.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\Uc_login.cs">
       <SubType>UserControl</SubType>
@@ -64,9 +64,22 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="UserControls\Uc_congViec.resx">
+      <DependentUpon>Uc_congViec.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Uc_login.resx">
       <DependentUpon>Uc_login.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{d9d36b58-104b-445b-b945-4c131370a207}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{3852a58a-c1f8-4f65-9b5e-74c2b37fa82c}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

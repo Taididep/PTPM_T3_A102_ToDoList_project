@@ -6,3 +6,12 @@ D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\obj\Debug\UC.dll
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\obj\Debug\UC.pdb
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\obj\Debug\UC.Uc_Login.resources
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\obj\Debug\UC.csproj.GenerateResource.cache
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\bin\Debug\BLL.dll
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\bin\Debug\DTO.dll
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\bin\Debug\DAL.dll
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\bin\Debug\BLL.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\bin\Debug\DTO.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\bin\Debug\DTO.dll.config
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\bin\Debug\DAL.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\obj\Debug\UC.csproj.Up2Date
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\UC\obj\Debug\UC.UserControls.Uc_congViec.resources

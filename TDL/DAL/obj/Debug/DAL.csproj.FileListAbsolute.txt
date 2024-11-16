@@ -16,3 +16,4 @@ D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\obj\Debug\DAL.csproj.CoreCom
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\obj\Debug\DAL.dll
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\obj\Debug\DAL.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DAL\bin\Debug\DTO.dll.config

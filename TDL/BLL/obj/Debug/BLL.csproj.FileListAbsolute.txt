@@ -20,3 +20,4 @@ D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\BLL\obj\Debug\BLL.csproj.CoreCom
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\BLL\obj\Debug\BLL.csproj.Up2Date
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\BLL\obj\Debug\BLL.dll
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\BLL\obj\Debug\BLL.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\BLL\bin\Debug\DTO.dll.config

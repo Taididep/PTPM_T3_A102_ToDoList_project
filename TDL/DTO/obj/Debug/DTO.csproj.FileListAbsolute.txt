@@ -10,3 +10,4 @@ D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DTO\obj\Debug\DTO.csproj.Assembl
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DTO\obj\Debug\DTO.dll
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DTO\obj\Debug\DTO.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\DTO\bin\Debug\DTO.dll.config

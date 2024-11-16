@@ -14,3 +14,8 @@ D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\UC.dll
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\UC.pdb
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\obj\Debug\GUI.Frm_login.resources
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\obj\Debug\GUI.Frm_main.resources
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\DTO.dll.config
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\BLL.dll
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\DAL.dll
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\BLL.pdb
+D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\DAL.pdb
