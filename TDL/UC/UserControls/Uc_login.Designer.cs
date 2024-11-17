@@ -61,6 +61,7 @@
             this.Btn_login.TabIndex = 4;
             this.Btn_login.Text = "Login";
             this.Btn_login.UseVisualStyleBackColor = true;
+            this.Btn_login.Click += new System.EventHandler(this.Btn_login_Click);
             // 
             // txt_username
             // 

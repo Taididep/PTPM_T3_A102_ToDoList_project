@@ -98,6 +98,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\API\API.csproj">
+      <Project>{adfb0d88-a51d-475c-bfd8-375492d238b4}</Project>
+      <Name>API</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{d9d36b58-104b-445b-b945-4c131370a207}</Project>
       <Name>BLL</Name>

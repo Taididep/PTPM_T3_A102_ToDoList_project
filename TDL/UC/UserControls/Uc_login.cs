@@ -1,35 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BLL;
-using DTO;
-using UC.Controls;
-using System.Data.SqlClient;
-using static BLL.QL_NguoiDungBLL;
+using Newtonsoft.Json;
 
 namespace UC
 {
     public partial class Uc_login : UserControl
     {
-        private QL_NguoiDungBLL nguoiDungDAL = new QL_NguoiDungBLL();
+        private bool _isLogin;
+        private string _tenDangNhap;
+
         public event EventHandler GetChange_login;
-        bool _isLogin;
-        string _tenDangNhap;
+
         public Uc_login()
         {
             InitializeComponent();
-
-
-            //Khai báo event
+            // Khai báo sự kiện
             this.Btn_login.Click += Btn_login_Click;
-
         }
+
         public bool IsLogin { get => _isLogin; set => _isLogin = value; }
         public string TenDangNhap { get => _tenDangNhap; set => _tenDangNhap = value; }
 
@@ -44,25 +35,28 @@ namespace UC
             ProcessLogin();
         }
 
-        private void ProcessLogin()
+        private async void ProcessLogin()
         {
             IsLogin = false;
             string username = txt_username.Text.Trim();
             string password = txt_password.Text.Trim();
 
-            var result = nguoiDungDAL.Check_User(username, password);
+            var loginRequest = new { TenDangNhap = username, MatKhau = password };
 
-            if (result == LoginResult.Invalid)
+            // Gọi API để thực hiện đăng nhập
+            var loginResult = await CallLoginApi(loginRequest);
+
+            if (loginResult == "Invalid")
             {
-                MessageBox.Show("Sai " + lb_username.Text + " hoặc " + lb_password.Text, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            else if (result == LoginResult.Disabled)
+            else if (loginResult == "Disabled")
             {
                 MessageBox.Show("Tài khoản bị khóa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            else if (result == LoginResult.Success)
+            else if (loginResult == "Success")
             {
                 MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 IsLogin = true;
@@ -73,7 +67,29 @@ namespace UC
             }
         }
 
+        private async Task<string> CallLoginApi(object loginRequest)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://localhost:44341/");
+                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
 
+                var content = new StringContent(JsonConvert.SerializeObject(loginRequest), Encoding.UTF8, "application/json");
 
+                // Gửi yêu cầu POST tới API
+                var response = await client.PostAsync("api/NguoiDung/Login", content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var resultJson = await response.Content.ReadAsStringAsync();
+                    var resultObject = JsonConvert.DeserializeObject<dynamic>(resultJson);
+                    return resultObject.message; // Trả về giá trị "message"
+                }
+                else
+                {
+                    return "Error";
+                }
+            }
+        }
     }
 }
