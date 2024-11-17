@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_CongViec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CongViec.Designer.cs">
+      <DependentUpon>Frm_CongViec.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_CongViec.resx">
+      <DependentUpon>Frm_CongViec.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_login.resx">
       <DependentUpon>Frm_login.cs</DependentUpon>
     </EmbeddedResource>

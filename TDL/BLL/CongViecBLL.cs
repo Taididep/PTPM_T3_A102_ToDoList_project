@@ -24,6 +24,11 @@ namespace BLL
             return dalCongViec.GetByTenDangNhap(tenDangNhap);
         }
 
+        public List<CongViecDTO> GetByDanhMuc(int maDanhMuc)
+        {
+            return dalCongViec.GetByDanhMuc(maDanhMuc);
+        }
+
 
         // Thêm công việc mới
         public bool Insert(string tenDangNhap, string tieuDe, string moTa, DateTime? ngayHetHan)

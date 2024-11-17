@@ -32,6 +32,23 @@ namespace DAL
                        }).ToList();
         }
 
+        public List<CongViecDTO> GetByDanhMuc(int maDanhMuc)
+        {
+            return qlcv.CongViecDanhMucs
+                       .Where(cdm => cdm.MaDanhMuc == maDanhMuc) // Lọc theo mã danh mục
+                       .Select(cdm => cdm.CongViec) // Lấy các công việc liên quan
+                       .Select(cv => new CongViecDTO // Map sang DTO
+                       {
+                           MaCongViec = cv.MaCongViec,
+                           TieuDe = cv.TieuDe,
+                           MoTa = cv.MoTa,
+                           NgayHetHan = cv.NgayHetHan,
+                           HoanThanh = cv.HoanThanh
+                       })
+                       .ToList();
+        }
+
+
         // Thêm công việc mới
         public bool Insert(string tenDangNhap, string tieuDe, string moTa, DateTime? ngayHetHan)
         {

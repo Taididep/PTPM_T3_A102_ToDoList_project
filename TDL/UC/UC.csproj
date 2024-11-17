@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\dtp_ngayHetHan.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\Txt_password.cs">
       <SubType>Component</SubType>
     </Compile>

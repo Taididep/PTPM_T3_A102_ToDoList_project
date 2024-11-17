@@ -125,7 +125,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Uc_congViec";
-            this.Size = new System.Drawing.Size(307, 64);
+            this.Size = new System.Drawing.Size(306, 64);
             this.Load += new System.EventHandler(this.Uc_congViec_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

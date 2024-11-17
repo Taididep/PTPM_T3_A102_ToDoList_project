@@ -15,9 +15,25 @@ namespace UC.UserControls
         private string tieuDe;
         private string ngayHetHan;
         private bool hoanThanh;
+
+        public event EventHandler EditClick;
         public Uc_congViec()
         {
             InitializeComponent();
+
+            this.btn_edit.Click += Btn_edit_Click;
+            this.btn_delete.Click += Btn_delete_Click;
+        }
+
+        private void Btn_delete_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Btn_edit_Click(object sender, EventArgs e)
+        {
+            // Khi nhấn nút edit, phát ra sự kiện EditClick
+            EditClick?.Invoke(this, EventArgs.Empty);
         }
 
         public bool HoanThanh { get => hoanThanh; set => hoanThanh = value; }
