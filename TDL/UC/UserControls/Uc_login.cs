@@ -11,6 +11,7 @@ namespace UC
     {
         private bool _isLogin;
         private string _tenDangNhap;
+        private bool isProcessing = false;
 
         public event EventHandler GetChange_login;
 
@@ -37,33 +38,42 @@ namespace UC
 
         private async void ProcessLogin()
         {
-            IsLogin = false;
-            string username = txt_username.Text.Trim();
-            string password = txt_password.Text.Trim();
-
-            var loginRequest = new { TenDangNhap = username, MatKhau = password };
-
-            // Gọi API để thực hiện đăng nhập
-            var loginResult = await CallLoginApi(loginRequest);
-
-            if (loginResult == "Invalid")
-            {
-                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if (isProcessing)
                 return;
-            }
-            else if (loginResult == "Disabled")
-            {
-                MessageBox.Show("Tài khoản bị khóa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            else if (loginResult == "Success")
-            {
-                MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                IsLogin = true;
-                _tenDangNhap = username;
 
-                // Gửi sự kiện thông báo đăng nhập thành công
-                GetChange_login?.Invoke(this, EventArgs.Empty);
+            isProcessing = true;
+            try
+            {
+                IsLogin = false;
+                string username = txt_username.Text.Trim();
+                string password = txt_password.Text.Trim();
+
+                var loginRequest = new { TenDangNhap = username, MatKhau = password };
+
+                // Gọi API để thực hiện đăng nhập
+                var loginResult = await CallLoginApi(loginRequest);
+
+                if (loginResult == "Invalid")
+                {
+                    MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else if (loginResult == "Disabled")
+                {
+                    MessageBox.Show("Tài khoản bị khóa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if (loginResult == "Success")
+                {
+                    MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    IsLogin = true;
+                    _tenDangNhap = username;
+
+                    // Gửi sự kiện thông báo đăng nhập thành công
+                    GetChange_login?.Invoke(this, EventArgs.Empty);
+                }
+            }
+            finally
+            {
+                isProcessing = false; // Đặt lại trạng thái xử lý
             }
         }
 

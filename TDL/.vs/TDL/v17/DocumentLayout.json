@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\uc\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|solutionrelative:uc\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\api\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\api\\controllers\\congvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\controllers\\congvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|solutionrelative:gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\bll\\congviecbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|solutionrelative:bll\\taikhoan\\ql_nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\api\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\api\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\api\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|solutionrelative:gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|solutionrelative:gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\uc\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|solutionrelative:uc\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3852A58A-C1F8-4F65-9B5E-74C2B37FA82C}|DTO\\DTO.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\dto\\ql_nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,17 +170,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 305,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Uc_login.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\UC\\UserControls\\Uc_login.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_login.cs",
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\UC\\UserControls\\Uc_login.cs",
               "RelativeToolTip": "UC\\UserControls\\Uc_login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAB8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T15:11:13.093Z",
               "IsPinned": true,
@@ -188,13 +188,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "NguoiDungController.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\API\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\NguoiDungController.cs",
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\API\\Controllers\\NguoiDungController.cs",
               "RelativeToolTip": "API\\Controllers\\NguoiDungController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAAG4AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wHcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T19:31:33.405Z",
               "IsPinned": true,
@@ -202,20 +202,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CongViecController.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\API\\Controllers\\CongViecController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\CongViecController.cs",
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\API\\Controllers\\CongViecController.cs",
               "RelativeToolTip": "API\\Controllers\\CongViecController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T08:47:11.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Frm_main.cs",
+              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\GUI\\Frm_main.cs",
+              "RelativeDocumentMoniker": "GUI\\Frm_main.cs",
+              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\GUI\\Frm_main.cs",
+              "RelativeToolTip": "GUI\\Frm_main.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAA2wI0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:30:04.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CongViecBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\BLL\\CongViecBLL.cs",
               "RelativeDocumentMoniker": "BLL\\CongViecBLL.cs",
@@ -223,12 +236,11 @@
               "RelativeToolTip": "BLL\\CongViecBLL.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwDAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:29:56.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:29:56.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CongViecDAL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\DAL\\CongViecDAL.cs",
               "RelativeDocumentMoniker": "DAL\\CongViecDAL.cs",
@@ -236,12 +248,11 @@
               "RelativeToolTip": "DAL\\CongViecDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:22:59.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:22:59.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CongViecDTO.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\DTO\\CongViecDTO.cs",
               "RelativeDocumentMoniker": "DTO\\CongViecDTO.cs",
@@ -249,12 +260,11 @@
               "RelativeToolTip": "DTO\\CongViecDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T16:21:12.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T16:21:12.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "QL_NguoiDungBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\BLL\\TaiKhoan\\QL_NguoiDungBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\QL_NguoiDungBLL.cs",
@@ -262,12 +272,11 @@
               "RelativeToolTip": "BLL\\TaiKhoan\\QL_NguoiDungBLL.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA6wFUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:49:20.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T18:49:20.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DanhMucController.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\API\\Controllers\\DanhMucController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\DanhMucController.cs",
@@ -275,25 +284,11 @@
               "RelativeToolTip": "API\\Controllers\\DanhMucController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:57:34.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T08:57:34.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Frm_main.cs",
-              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\GUI\\Frm_main.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_main.cs",
-              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\GUI\\Frm_main.cs",
-              "RelativeToolTip": "GUI\\Frm_main.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAcwJ4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:30:04.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Frm_main.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\GUI\\Frm_main.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_main.cs",
@@ -324,7 +319,8 @@
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\UC\\UserControls\\Uc_login.cs [Design]",
               "RelativeToolTip": "UC\\UserControls\\Uc_login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:10:18.924Z"
+              "WhenOpened": "2024-11-12T15:10:18.924Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -446,7 +442,8 @@
               "RelativeToolTip": "UC\\UserControls\\Uc_login.Designer.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAWwD4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:20:40.269Z"
+              "WhenOpened": "2024-11-12T15:20:40.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
