@@ -9,6 +9,7 @@ namespace DTO
     public class CongViecDTO
     {
         public int MaCongViec { get; set; }
+        public string TenDangNhap { get; set; }
         public string TieuDe { get; set; }
         public string MoTa { get; set; }
         public DateTime? NgayHetHan { get; set; }

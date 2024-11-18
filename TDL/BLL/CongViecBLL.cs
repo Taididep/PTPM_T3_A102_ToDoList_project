@@ -13,39 +13,46 @@ namespace BLL
         public CongViecBLL() { }
 
         // Lấy tất cả công việc
-        public IQueryable<dynamic> GetALL()
+        // Lấy danh sách tất cả công việc
+        public List<CongViecDTO> GetAll()
         {
-            return dalCongViec.GetALL();
+            return dalCongViec.GetAll();
         }
 
-        // Lấy công việc theo TenDangNhap
+        // Lấy danh sách công việc theo TenDangNhap
         public List<CongViecDTO> GetByTenDangNhap(string tenDangNhap)
         {
-            return dalCongViec.GetByTenDangNhap(tenDangNhap);
+            return string.IsNullOrEmpty(tenDangNhap) ? new List<CongViecDTO>() : dalCongViec.GetByTenDangNhap(tenDangNhap);
         }
 
+        // Lấy danh sách công việc theo danh mục
         public List<CongViecDTO> GetByDanhMuc(int maDanhMuc)
         {
-            return dalCongViec.GetByDanhMuc(maDanhMuc);
+            return maDanhMuc <= 0 ? new List<CongViecDTO>() : dalCongViec.GetByDanhMuc(maDanhMuc);
         }
 
-
         // Thêm công việc mới
-        public bool Insert(string tenDangNhap, string tieuDe, string moTa, DateTime? ngayHetHan)
+        public bool Insert(CongViecDTO congViec)
         {
-            return dalCongViec.Insert(tenDangNhap, tieuDe, moTa, ngayHetHan);
+            if (congViec == null || string.IsNullOrEmpty(congViec.TieuDe) || string.IsNullOrEmpty(congViec.TenDangNhap))
+                return false;
+
+            return dalCongViec.Insert(congViec);
         }
 
         // Xóa công việc
         public bool Delete(int maCongViec)
         {
-            return dalCongViec.Delete(maCongViec);
+            return maCongViec > 0 && dalCongViec.Delete(maCongViec);
         }
 
         // Cập nhật công việc
-        public bool Update(int maCongViec, string tieuDe, string moTa, DateTime? ngayHetHan, bool hoanThanh)
+        public bool Update(CongViecDTO congViec)
         {
-            return dalCongViec.Update(maCongViec, tieuDe, moTa, ngayHetHan, hoanThanh);
+            if (congViec == null || congViec.MaCongViec <= 0 || string.IsNullOrEmpty(congViec.TieuDe))
+                return false;
+
+            return dalCongViec.Update(congViec);
         }
     }
 }

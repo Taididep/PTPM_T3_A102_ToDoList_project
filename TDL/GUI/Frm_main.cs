@@ -155,8 +155,5 @@ namespace GUI
                 }
             }
         }
-
-
-
     }
 }

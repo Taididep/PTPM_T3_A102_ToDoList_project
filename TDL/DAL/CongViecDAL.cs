@@ -7,69 +7,77 @@ namespace DAL
 {
     public class CongViecDAL
     {
-        QLCONGVIECDataContext qlcv = new QLCONGVIECDataContext();
+        private readonly QLCONGVIECDataContext qlcv = new QLCONGVIECDataContext();
 
         public CongViecDAL() { }
 
-        // Lấy tất cả công việc
-        public IQueryable<dynamic> GetALL()
+        // Lấy danh sách tất cả công việc
+        public List<CongViecDTO> GetAll()
         {
-            return qlcv.CongViecs.Select(k => k);
+            return qlcv.CongViecs.Select(cv => new CongViecDTO
+            {
+                MaCongViec = cv.MaCongViec,
+                TenDangNhap = cv.TenDangNhap,
+                TieuDe = cv.TieuDe,
+                MoTa = cv.MoTa,
+                NgayHetHan = cv.NgayHetHan,
+                HoanThanh = cv.HoanThanh
+            }).ToList();
         }
 
         // Lấy danh sách công việc theo TenDangNhap
         public List<CongViecDTO> GetByTenDangNhap(string tenDangNhap)
         {
             return qlcv.CongViecs
-                       .Where(c => c.TenDangNhap == tenDangNhap)
-                       .Select(k => new CongViecDTO
-                       {
-                           MaCongViec = k.MaCongViec,
-                           TieuDe = k.TieuDe,
-                           MoTa = k.MoTa,
-                           NgayHetHan = k.NgayHetHan,
-                           HoanThanh = k.HoanThanh
-                       }).ToList();
+                .Where(cv => cv.TenDangNhap == tenDangNhap)
+                .Select(cv => new CongViecDTO
+                {
+                    MaCongViec = cv.MaCongViec,
+                    TenDangNhap = cv.TenDangNhap,
+                    TieuDe = cv.TieuDe,
+                    MoTa = cv.MoTa,
+                    NgayHetHan = cv.NgayHetHan,
+                    HoanThanh = cv.HoanThanh
+                }).ToList();
         }
 
+        // Lấy danh sách công việc theo danh mục
         public List<CongViecDTO> GetByDanhMuc(int maDanhMuc)
         {
             return qlcv.CongViecDanhMucs
-                       .Where(cdm => cdm.MaDanhMuc == maDanhMuc) // Lọc theo mã danh mục
-                       .Select(cdm => cdm.CongViec) // Lấy các công việc liên quan
-                       .Select(cv => new CongViecDTO // Map sang DTO
-                       {
-                           MaCongViec = cv.MaCongViec,
-                           TieuDe = cv.TieuDe,
-                           MoTa = cv.MoTa,
-                           NgayHetHan = cv.NgayHetHan,
-                           HoanThanh = cv.HoanThanh
-                       })
-                       .ToList();
+                .Where(cdm => cdm.MaDanhMuc == maDanhMuc)
+                .Select(cdm => cdm.CongViec)
+                .Select(cv => new CongViecDTO
+                {
+                    MaCongViec = cv.MaCongViec,
+                    TenDangNhap = cv.TenDangNhap,
+                    TieuDe = cv.TieuDe,
+                    MoTa = cv.MoTa,
+                    NgayHetHan = cv.NgayHetHan,
+                    HoanThanh = cv.HoanThanh
+                }).ToList();
         }
 
-
         // Thêm công việc mới
-        public bool Insert(string tenDangNhap, string tieuDe, string moTa, DateTime? ngayHetHan)
+        public bool Insert(CongViecDTO congViec)
         {
             try
             {
-                CongViec newCongViec = new CongViec
+                var newCongViec = new CongViec
                 {
-                    TenDangNhap = tenDangNhap,
-                    TieuDe = tieuDe,
-                    MoTa = moTa,
-                    NgayHetHan = ngayHetHan,
-                    HoanThanh = false  // Mặc định là chưa hoàn thành
+                    TenDangNhap = congViec.TenDangNhap,
+                    TieuDe = congViec.TieuDe,
+                    MoTa = congViec.MoTa,
+                    NgayHetHan = congViec.NgayHetHan,
+                    HoanThanh = false
                 };
 
                 qlcv.CongViecs.InsertOnSubmit(newCongViec);
                 qlcv.SubmitChanges();
                 return true;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Console.WriteLine(ex.Message);
                 return false;
             }
         }
@@ -79,43 +87,41 @@ namespace DAL
         {
             try
             {
-                var congViecToDelete = qlcv.CongViecs.FirstOrDefault(c => c.MaCongViec == maCongViec);
+                var congViecToDelete = qlcv.CongViecs.FirstOrDefault(cv => cv.MaCongViec == maCongViec);
                 if (congViecToDelete != null)
                 {
                     qlcv.CongViecs.DeleteOnSubmit(congViecToDelete);
                     qlcv.SubmitChanges();
                     return true;
                 }
-                return false; // Không tìm thấy công việc để xóa
+                return false;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Console.WriteLine(ex.Message);
                 return false;
             }
         }
 
         // Cập nhật công việc
-        public bool Update(int maCongViec, string tieuDe, string moTa, DateTime? ngayHetHan, bool hoanThanh)
+        public bool Update(CongViecDTO congViec)
         {
             try
             {
-                var congViecToUpdate = qlcv.CongViecs.FirstOrDefault(c => c.MaCongViec == maCongViec);
+                var congViecToUpdate = qlcv.CongViecs.FirstOrDefault(cv => cv.MaCongViec == congViec.MaCongViec);
                 if (congViecToUpdate != null)
                 {
-                    congViecToUpdate.TieuDe = tieuDe;
-                    congViecToUpdate.MoTa = moTa;
-                    congViecToUpdate.NgayHetHan = ngayHetHan;
-                    congViecToUpdate.HoanThanh = hoanThanh;
+                    congViecToUpdate.TieuDe = congViec.TieuDe;
+                    congViecToUpdate.MoTa = congViec.MoTa;
+                    congViecToUpdate.NgayHetHan = congViec.NgayHetHan;
+                    congViecToUpdate.HoanThanh = congViec.HoanThanh;
 
                     qlcv.SubmitChanges();
                     return true;
                 }
-                return false; // Không tìm thấy công việc để cập nhật
+                return false;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Console.WriteLine(ex.Message);
                 return false;
             }
         }
