@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\fe\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\fe\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -19,39 +19,39 @@
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\fe\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\fe\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\fe\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\fe\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\fe\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\fe\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\fe\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\fe\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\api\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\api\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\api\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\api\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\dal\\taikhoan\\ql_phanquyendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\dal\\taikhoan\\ql_phanquyendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoan\\ql_phanquyendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\dal\\taikhoan\\ql_nhomnguoidungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\dal\\taikhoan\\ql_nhomnguoidungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoan\\ql_nhomnguoidungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,7 +63,7 @@
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\controllers\\congvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|d:\\learning\\2. phat trien ung dung\\doantodo\\tdl\\uc\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\uc\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|solutionrelative:uc\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -223,8 +223,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T15:11:13.093Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -237,8 +236,7 @@
               "ViewState": "AgIAAEsAAAAAAAAAAAAgwF8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T19:31:33.405Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -250,8 +248,7 @@
               "RelativeToolTip": "FE\\Login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-18T10:41:58.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T10:41:58.202Z"
             },
             {
               "$type": "Document",
@@ -289,8 +286,7 @@
               "RelativeToolTip": "FE\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-18T10:40:28.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T10:40:28.916Z"
             },
             {
               "$type": "Document",
@@ -302,8 +298,7 @@
               "RelativeToolTip": "FE\\Login.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T10:49:32.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T10:49:32.854Z"
             },
             {
               "$type": "Document",
@@ -315,8 +310,7 @@
               "RelativeToolTip": "FE\\Contact.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-18T10:39:41.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T10:39:41.432Z"
             },
             {
               "$type": "Document",
@@ -328,8 +322,7 @@
               "RelativeToolTip": "FE\\About.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-18T10:39:40.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T10:39:40.28Z"
             },
             {
               "$type": "Document",
@@ -341,8 +334,7 @@
               "RelativeToolTip": "API\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T09:47:50.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T09:47:50.638Z"
             },
             {
               "$type": "Document",
@@ -354,8 +346,7 @@
               "RelativeToolTip": "API\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T09:47:06.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T09:47:06.487Z"
             },
             {
               "$type": "Document",
@@ -367,8 +358,7 @@
               "RelativeToolTip": "API\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T09:47:49.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T09:47:49.213Z"
             },
             {
               "$type": "Document",
@@ -380,8 +370,7 @@
               "RelativeToolTip": "DAL\\TaiKhoan\\QL_PhanQuyenDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T09:45:02.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T09:45:02.001Z"
             },
             {
               "$type": "Document",
@@ -393,8 +382,7 @@
               "RelativeToolTip": "DAL\\TaiKhoan\\QL_NhomNguoiDungDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T09:45:06.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T09:45:06.467Z"
             },
             {
               "$type": "Document",
@@ -406,8 +394,7 @@
               "RelativeToolTip": "API\\Controllers\\DanhMucController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:57:34.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T08:57:34.849Z"
             },
             {
               "$type": "Document",
@@ -419,8 +406,7 @@
               "RelativeToolTip": "API\\Controllers\\CongViecController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:47:11.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T08:47:11.874Z"
             },
             {
               "$type": "Document",
@@ -432,8 +418,7 @@
               "RelativeToolTip": "GUI\\Frm_main.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAA2wI0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:30:04.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T12:30:04.354Z"
             },
             {
               "$type": "Document",
@@ -445,8 +430,7 @@
               "RelativeToolTip": "BLL\\CongViecBLL.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwDAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:29:56.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:29:56.406Z"
             },
             {
               "$type": "Document",
@@ -458,8 +442,7 @@
               "RelativeToolTip": "DAL\\CongViecDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:22:59.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:22:59.786Z"
             },
             {
               "$type": "Document",
@@ -471,8 +454,7 @@
               "RelativeToolTip": "DTO\\CongViecDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T16:21:12.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T16:21:12.881Z"
             },
             {
               "$type": "Document",
@@ -484,8 +466,7 @@
               "RelativeToolTip": "BLL\\TaiKhoan\\QL_NguoiDungBLL.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA6wFUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:49:20.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T18:49:20.304Z"
             },
             {
               "$type": "Document",
@@ -496,8 +477,7 @@
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\GUI\\Frm_main.cs [Design]",
               "RelativeToolTip": "GUI\\Frm_main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:01:34.402Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-12T15:01:34.402Z"
             },
             {
               "$type": "Document",
@@ -509,8 +489,7 @@
               "RelativeToolTip": "DTO\\QL_NguoiDungDTO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T20:25:14.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T20:25:14.521Z"
             },
             {
               "$type": "Document",
@@ -521,8 +500,7 @@
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\UC\\UserControls\\Uc_login.cs [Design]",
               "RelativeToolTip": "UC\\UserControls\\Uc_login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:10:18.924Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-12T15:10:18.924Z"
             },
             {
               "$type": "Document",
@@ -534,8 +512,7 @@
               "RelativeToolTip": "API\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T20:00:19.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T20:00:19.553Z"
             },
             {
               "$type": "Document",
@@ -547,8 +524,7 @@
               "RelativeToolTip": "DTO\\DanhMucDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:28:06.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:28:06.566Z"
             },
             {
               "$type": "Document",
@@ -560,8 +536,7 @@
               "RelativeToolTip": "API\\packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-17T19:38:06.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T19:38:06.571Z"
             },
             {
               "$type": "Document",
@@ -573,8 +548,7 @@
               "RelativeToolTip": "GUI\\Frm_main.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:32:43.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:32:43.502Z"
             },
             {
               "$type": "Document",
@@ -586,8 +560,7 @@
               "RelativeToolTip": "GUI\\Frm_login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:21:49.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T15:21:49.226Z"
             },
             {
               "$type": "Document",
@@ -599,8 +572,7 @@
               "RelativeToolTip": "DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:38:03.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T18:38:03.964Z"
             },
             {
               "$type": "Document",
@@ -612,8 +584,7 @@
               "RelativeToolTip": "API\\Global.asax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:38:18.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T19:38:18.549Z"
             },
             {
               "$type": "Document",
@@ -625,8 +596,7 @@
               "RelativeToolTip": "UC\\UserControls\\Uc_login.Designer.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAWwD4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:20:40.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T15:20:40.269Z"
             },
             {
               "$type": "Document",
@@ -637,8 +607,7 @@
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\GUI\\Frm_CongViec.cs [Design]",
               "RelativeToolTip": "GUI\\Frm_CongViec.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T13:36:33.018Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-17T13:36:33.018Z"
             },
             {
               "$type": "Document",
@@ -650,8 +619,7 @@
               "RelativeToolTip": "BLL\\TaiKhoan\\QL_NguoiDungNhomNguoiDungBLL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:49:19.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T18:49:19.745Z"
             },
             {
               "$type": "Document",
@@ -662,8 +630,7 @@
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\UC\\Controls\\dtp_ngayHetHan.cs [Design]",
               "RelativeToolTip": "UC\\Controls\\dtp_ngayHetHan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:02:39.322Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-17T17:02:39.322Z"
             },
             {
               "$type": "Document",
@@ -675,8 +642,7 @@
               "RelativeToolTip": "UC\\Controls\\dtp_ngayHetHan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:02:15.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T17:02:15.051Z"
             },
             {
               "$type": "Document",
@@ -687,8 +653,7 @@
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\UC\\UserControls\\Uc_congViec.cs [Design]",
               "RelativeToolTip": "UC\\UserControls\\Uc_congViec.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:37:42.07Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-17T12:37:42.07Z"
             },
             {
               "$type": "Document",
@@ -700,8 +665,7 @@
               "RelativeToolTip": "UC\\Controls\\Txt_password.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:11:52.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T15:11:52.361Z"
             },
             {
               "$type": "Document",
@@ -713,8 +677,7 @@
               "RelativeToolTip": "GUI\\Frm_CongViec.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T15:48:25.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T15:48:25.282Z"
             },
             {
               "$type": "Document",
@@ -726,8 +689,7 @@
               "RelativeToolTip": "UC\\UserControls\\Uc_congViec.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAgwCIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:37:47.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T12:37:47.149Z"
             },
             {
               "$type": "Document",
@@ -739,8 +701,7 @@
               "RelativeToolTip": "BLL\\DanhMucBLL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:22:53.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:22:53.889Z"
             },
             {
               "$type": "Document",
@@ -752,8 +713,7 @@
               "RelativeToolTip": "DAL\\DanhMucDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:22:58.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T14:22:58.923Z"
             },
             {
               "$type": "Document",
@@ -764,8 +724,7 @@
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\GUI\\Frm_login.cs [Design]",
               "RelativeToolTip": "GUI\\Frm_login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:14:05.58Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-12T15:14:05.58Z"
             },
             {
               "$type": "Document",
@@ -777,8 +736,7 @@
               "RelativeToolTip": "BLL\\NhacNhoBLL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T15:48:13.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T15:48:13.174Z"
             },
             {
               "$type": "Document",
@@ -790,8 +748,7 @@
               "RelativeToolTip": "UC\\Controls\\Txt_username.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:12:50.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T15:12:50.196Z"
             },
             {
               "$type": "Document",
@@ -802,8 +759,7 @@
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\UC\\Controls\\Txt_username.cs [Design]",
               "RelativeToolTip": "UC\\Controls\\Txt_username.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:13:18.596Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-12T15:13:18.596Z"
             },
             {
               "$type": "Document",
@@ -814,8 +770,7 @@
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\UC\\Controls\\Txt_password.cs [Design]",
               "RelativeToolTip": "UC\\Controls\\Txt_password.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:13:17.899Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-12T15:13:17.899Z"
             },
             {
               "$type": "Document",
