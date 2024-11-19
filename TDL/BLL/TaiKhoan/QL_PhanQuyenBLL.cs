@@ -12,61 +12,56 @@ namespace BLL
         public QL_PhanQuyenBLL() { }
 
         // Lấy danh sách tất cả quyền
-        public IQueryable<dynamic> GetALL()
+        public IQueryable<dynamic> GetAll()
         {
-            return dalPhanQuyen.GetALL();
+            return dalPhanQuyen.GetAll();
         }
 
-        // Lấy thông tin một quyền
-        public QL_PhanQuyen GetOne(int permissionId)
+        // Lấy thông tin một quyền theo MaNhomNguoiDung và MaManHinh
+        public QL_PhanQuyen GetOne(string maNhomNguoiDung, string maManHinh)
         {
-            if (permissionId <= 0)
+            if (string.IsNullOrEmpty(maNhomNguoiDung) || string.IsNullOrEmpty(maManHinh))
             {
-                throw new ArgumentException("Mã quyền không hợp lệ.");
+                throw new ArgumentException("Mã nhóm người dùng hoặc mã màn hình không hợp lệ.");
             }
-            return dalPhanQuyen.GetOne(permissionId);
+            return dalPhanQuyen.GetOne(maNhomNguoiDung, maManHinh);
         }
 
-        // Thêm quyền mới
+        // Thêm phân quyền mới
         public bool Insert(QL_PhanQuyen newPermission)
         {
             if (newPermission == null)
             {
-                throw new ArgumentNullException(nameof(newPermission), "Dữ liệu quyền không hợp lệ.");
+                throw new ArgumentNullException(nameof(newPermission), "Dữ liệu phân quyền không hợp lệ.");
             }
 
-            if (string.IsNullOrEmpty(newPermission.TenQuyen) || newPermission.TenQuyen.Length > 255)
+            if (string.IsNullOrEmpty(newPermission.MaNhomNguoiDung) || string.IsNullOrEmpty(newPermission.MaManHinh))
             {
-                throw new ArgumentException("Tên quyền không được để trống và phải nhỏ hơn 255 ký tự.");
+                throw new ArgumentException("Mã nhóm người dùng và mã màn hình không được để trống.");
             }
 
             return dalPhanQuyen.Insert(newPermission);
         }
 
-        // Cập nhật quyền
+        // Cập nhật phân quyền
         public bool Update(QL_PhanQuyen updatedPermission)
         {
-            if (updatedPermission == null || updatedPermission.PermissionId <= 0)
+            if (updatedPermission == null || string.IsNullOrEmpty(updatedPermission.MaNhomNguoiDung) || string.IsNullOrEmpty(updatedPermission.MaManHinh))
             {
-                throw new ArgumentException("Mã quyền không hợp lệ.");
-            }
-
-            if (string.IsNullOrEmpty(updatedPermission.TenQuyen) || updatedPermission.TenQuyen.Length > 255)
-            {
-                throw new ArgumentException("Tên quyền không được để trống và phải nhỏ hơn 255 ký tự.");
+                throw new ArgumentException("Dữ liệu phân quyền không hợp lệ.");
             }
 
             return dalPhanQuyen.Update(updatedPermission);
         }
 
-        // Xóa quyền
-        public bool Delete(int permissionId)
+        // Xóa phân quyền
+        public bool Delete(string maNhomNguoiDung, string maManHinh)
         {
-            if (permissionId <= 0)
+            if (string.IsNullOrEmpty(maNhomNguoiDung) || string.IsNullOrEmpty(maManHinh))
             {
-                throw new ArgumentException("Mã quyền không hợp lệ.");
+                throw new ArgumentException("Mã nhóm người dùng và mã màn hình không hợp lệ.");
             }
-            return dalPhanQuyen.Delete(permissionId);
+            return dalPhanQuyen.Delete(maNhomNguoiDung, maManHinh);
         }
     }
 }

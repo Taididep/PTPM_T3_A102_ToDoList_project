@@ -12,19 +12,15 @@ namespace BLL
         public DM_ManHinhBLL() { }
 
         // Lấy danh sách tất cả màn hình
-        public IQueryable<dynamic> GetALL()
+        public IQueryable<dynamic> GetAll()
         {
-            return dalManHinh.GetALL();
+            return dalManHinh.GetAll();
         }
 
         // Lấy thông tin một màn hình
-        public DM_ManHinh GetOne(int screenId)
+        public DM_ManHinh GetOne(string maManHinh)
         {
-            if (screenId <= 0)
-            {
-                throw new ArgumentException("Mã màn hình không hợp lệ.");
-            }
-            return dalManHinh.GetOne(screenId);
+            return dalManHinh.GetOne(maManHinh);
         }
 
         // Thêm màn hình mới
@@ -33,6 +29,11 @@ namespace BLL
             if (newScreen == null)
             {
                 throw new ArgumentNullException(nameof(newScreen), "Dữ liệu màn hình không hợp lệ.");
+            }
+
+            if (string.IsNullOrEmpty(newScreen.MaManHinh) || newScreen.MaManHinh.Length > 50)
+            {
+                throw new ArgumentException("Mã màn hình không được để trống và phải nhỏ hơn 50 ký tự.");
             }
 
             if (string.IsNullOrEmpty(newScreen.TenManHinh) || newScreen.TenManHinh.Length > 255)
@@ -46,7 +47,7 @@ namespace BLL
         // Cập nhật thông tin màn hình
         public bool Update(DM_ManHinh updatedScreen)
         {
-            if (updatedScreen == null || updatedScreen.ScreenId <= 0)
+            if (updatedScreen == null || string.IsNullOrEmpty(updatedScreen.MaManHinh))
             {
                 throw new ArgumentException("Mã màn hình không hợp lệ.");
             }
@@ -60,13 +61,13 @@ namespace BLL
         }
 
         // Xóa màn hình
-        public bool Delete(int screenId)
+        public bool Delete(string maManHinh)
         {
-            if (screenId <= 0)
+            if (string.IsNullOrEmpty(maManHinh))
             {
-                throw new ArgumentException("Mã màn hình không hợp lệ.");
+                throw new ArgumentException("Mã màn hình không được để trống.");
             }
-            return dalManHinh.Delete(screenId);
+            return dalManHinh.Delete(maManHinh);
         }
     }
 }

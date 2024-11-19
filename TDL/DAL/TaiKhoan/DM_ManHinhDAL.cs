@@ -14,16 +14,15 @@ namespace DAL
         {
             return qlcv.DM_ManHinhs.Select(m => new
             {
-                m.Id,
-                m.TenManHinh,
-                m.MoTa
+                m.MaManHinh,
+                m.TenManHinh
             });
         }
 
-        // Lấy thông tin một màn hình theo Id
-        public DM_ManHinh GetOne(int id)
+        // Lấy thông tin một màn hình theo MaManHinh
+        public DM_ManHinh GetOne(string maManHinh)
         {
-            return qlcv.DM_ManHinhs.FirstOrDefault(m => m.Id == id);
+            return qlcv.DM_ManHinhs.FirstOrDefault(m => m.MaManHinh == maManHinh);
         }
 
         // Thêm một màn hình mới
@@ -41,12 +40,12 @@ namespace DAL
             }
         }
 
-        // Xóa một màn hình
-        public bool Delete(int id)
+        // Xóa một màn hình theo MaManHinh
+        public bool Delete(string maManHinh)
         {
             try
             {
-                var manHinh = qlcv.DM_ManHinhs.FirstOrDefault(m => m.Id == id);
+                var manHinh = qlcv.DM_ManHinhs.FirstOrDefault(m => m.MaManHinh == maManHinh);
                 if (manHinh != null)
                 {
                     qlcv.DM_ManHinhs.DeleteOnSubmit(manHinh);
@@ -66,11 +65,10 @@ namespace DAL
         {
             try
             {
-                var manHinh = qlcv.DM_ManHinhs.FirstOrDefault(m => m.Id == updatedManHinh.Id);
+                var manHinh = qlcv.DM_ManHinhs.FirstOrDefault(m => m.MaManHinh == updatedManHinh.MaManHinh);
                 if (manHinh != null)
                 {
                     manHinh.TenManHinh = updatedManHinh.TenManHinh;
-                    manHinh.MoTa = updatedManHinh.MoTa;
                     qlcv.SubmitChanges();
                     return true;
                 }

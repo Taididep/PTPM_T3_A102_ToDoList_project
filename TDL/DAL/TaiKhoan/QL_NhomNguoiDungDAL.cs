@@ -16,7 +16,7 @@ namespace DAL
             {
                 n.MaNhom,
                 n.TenNhom,
-                n.MoTa
+                n.GhiChu
             });
         }
 
@@ -41,7 +41,7 @@ namespace DAL
             }
         }
 
-        // Xóa một nhóm người dùng
+        // Xóa một nhóm người dùng theo mã nhóm
         public bool Delete(string maNhom)
         {
             try
@@ -70,7 +70,7 @@ namespace DAL
                 if (nhomNguoiDung != null)
                 {
                     nhomNguoiDung.TenNhom = updatedNhomNguoiDung.TenNhom;
-                    nhomNguoiDung.MoTa = updatedNhomNguoiDung.MoTa;
+                    nhomNguoiDung.GhiChu = updatedNhomNguoiDung.GhiChu;
                     qlcv.SubmitChanges();
                     return true;
                 }

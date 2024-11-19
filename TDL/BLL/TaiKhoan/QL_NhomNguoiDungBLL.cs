@@ -12,15 +12,15 @@ namespace BLL
         public QL_NhomNguoiDungBLL() { }
 
         // Lấy danh sách tất cả nhóm người dùng
-        public IQueryable<dynamic> GetALL()
+        public IQueryable<dynamic> GetAll()
         {
-            return dalNhomNguoiDung.GetALL();
+            return dalNhomNguoiDung.GetAll();
         }
 
-        // Lấy thông tin một nhóm người dùng
-        public QL_NhomNguoiDung GetOne(int groupId)
+        // Lấy thông tin một nhóm người dùng theo mã nhóm
+        public QL_NhomNguoiDung GetOne(string groupId)
         {
-            if (groupId <= 0)
+            if (string.IsNullOrEmpty(groupId))
             {
                 throw new ArgumentException("Mã nhóm người dùng không hợp lệ.");
             }
@@ -46,7 +46,7 @@ namespace BLL
         // Cập nhật nhóm người dùng
         public bool Update(QL_NhomNguoiDung updatedGroup)
         {
-            if (updatedGroup == null || updatedGroup.GroupId <= 0)
+            if (updatedGroup == null || string.IsNullOrEmpty(updatedGroup.MaNhom))
             {
                 throw new ArgumentException("Mã nhóm người dùng không hợp lệ.");
             }
@@ -60,9 +60,9 @@ namespace BLL
         }
 
         // Xóa nhóm người dùng
-        public bool Delete(int groupId)
+        public bool Delete(string groupId)
         {
-            if (groupId <= 0)
+            if (string.IsNullOrEmpty(groupId))
             {
                 throw new ArgumentException("Mã nhóm người dùng không hợp lệ.");
             }

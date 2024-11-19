@@ -14,17 +14,17 @@ namespace DAL
         {
             return qlcv.QL_PhanQuyens.Select(p => new
             {
-                p.Id,
-                p.MaNhom,
+                p.MaNhomNguoiDung,
                 p.MaManHinh,
-                p.Quyen
+                p.CoQuyen
             });
         }
 
-        // Lấy phân quyền theo ID
-        public QL_PhanQuyen GetOne(int id)
+        // Lấy phân quyền theo MaNhomNguoiDung và MaManHinh
+        public QL_PhanQuyen GetOne(string maNhomNguoiDung, string maManHinh)
         {
-            return qlcv.QL_PhanQuyens.FirstOrDefault(p => p.Id == id);
+            return qlcv.QL_PhanQuyens.FirstOrDefault(p =>
+                p.MaNhomNguoiDung == maNhomNguoiDung && p.MaManHinh == maManHinh);
         }
 
         // Thêm phân quyền mới
@@ -43,11 +43,12 @@ namespace DAL
         }
 
         // Xóa phân quyền
-        public bool Delete(int id)
+        public bool Delete(string maNhomNguoiDung, string maManHinh)
         {
             try
             {
-                var phanQuyen = qlcv.QL_PhanQuyens.FirstOrDefault(p => p.Id == id);
+                var phanQuyen = qlcv.QL_PhanQuyens.FirstOrDefault(p =>
+                    p.MaNhomNguoiDung == maNhomNguoiDung && p.MaManHinh == maManHinh);
                 if (phanQuyen != null)
                 {
                     qlcv.QL_PhanQuyens.DeleteOnSubmit(phanQuyen);
@@ -67,12 +68,12 @@ namespace DAL
         {
             try
             {
-                var phanQuyen = qlcv.QL_PhanQuyens.FirstOrDefault(p => p.Id == updatedPhanQuyen.Id);
+                var phanQuyen = qlcv.QL_PhanQuyens.FirstOrDefault(p =>
+                    p.MaNhomNguoiDung == updatedPhanQuyen.MaNhomNguoiDung &&
+                    p.MaManHinh == updatedPhanQuyen.MaManHinh);
                 if (phanQuyen != null)
                 {
-                    phanQuyen.MaNhom = updatedPhanQuyen.MaNhom;
-                    phanQuyen.MaManHinh = updatedPhanQuyen.MaManHinh;
-                    phanQuyen.Quyen = updatedPhanQuyen.Quyen;
+                    phanQuyen.CoQuyen = updatedPhanQuyen.CoQuyen;
                     qlcv.SubmitChanges();
                     return true;
                 }

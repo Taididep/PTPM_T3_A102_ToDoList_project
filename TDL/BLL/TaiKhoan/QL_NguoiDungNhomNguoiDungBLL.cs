@@ -7,27 +7,28 @@ namespace BLL
 {
     public class QL_NguoiDungNhomNguoiDungBLL
     {
-        QL_NguoiDungNhomNguoiDungDAL dalNhomNguoiDung = new QL_NguoiDungNhomNguoiDungDAL();
+        QL_NguoiDungNhomNguoiDungDAL dalNguoiDungNhom = new QL_NguoiDungNhomNguoiDungDAL();
 
         public QL_NguoiDungNhomNguoiDungBLL() { }
 
-        // Lấy danh sách tất cả nhóm người dùng
-        public IQueryable<dynamic> GetALL()
+        // Lấy danh sách tất cả người dùng thuộc nhóm người dùng
+        public IQueryable<dynamic> GetAll()
         {
-            return dalNhomNguoiDung.GetALL();
+            return dalNguoiDungNhom.GetAll();
         }
 
-        // Lấy thông tin một nhóm người dùng
-        public QL_NguoiDungNhomNguoiDung GetOne(string username)
+        // Lấy thông tin một người dùng thuộc nhóm người dùng
+        public QL_NguoiDungNhomNguoiDung GetOne(string username, string groupId)
         {
-            if (string.IsNullOrEmpty(username))
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(groupId))
             {
-                throw new ArgumentException("Tên đăng nhập không hợp lệ.");
+                throw new ArgumentException("Tên đăng nhập và mã nhóm người dùng không được để trống.");
             }
-            return dalNhomNguoiDung.GetOne(username);
+
+            return dalNguoiDungNhom.GetOne(username, groupId);
         }
 
-        // Thêm nhóm người dùng mới
+        // Thêm mới quan hệ người dùng - nhóm người dùng
         public bool Insert(QL_NguoiDungNhomNguoiDung newUserGroup)
         {
             if (newUserGroup == null)
@@ -35,33 +36,36 @@ namespace BLL
                 throw new ArgumentNullException(nameof(newUserGroup), "Dữ liệu nhóm người dùng không hợp lệ.");
             }
 
-            if (string.IsNullOrEmpty(newUserGroup.TenDangNhap) || newUserGroup.NhomId <= 0)
+            if (string.IsNullOrEmpty(newUserGroup.TenDangNhap) || string.IsNullOrEmpty(newUserGroup.MaNhomNguoiDung))
             {
                 throw new ArgumentException("Tên đăng nhập và mã nhóm người dùng phải hợp lệ.");
             }
 
-            return dalNhomNguoiDung.Insert(newUserGroup);
+            return dalNguoiDungNhom.Insert(newUserGroup);
         }
 
-        // Cập nhật nhóm người dùng
+        // Cập nhật thông tin quan hệ người dùng - nhóm người dùng
         public bool Update(QL_NguoiDungNhomNguoiDung updatedUserGroup)
         {
-            if (updatedUserGroup == null || updatedUserGroup.NhomId <= 0 || string.IsNullOrEmpty(updatedUserGroup.TenDangNhap))
+            if (updatedUserGroup == null
+                || string.IsNullOrEmpty(updatedUserGroup.TenDangNhap)
+                || string.IsNullOrEmpty(updatedUserGroup.MaNhomNguoiDung))
             {
                 throw new ArgumentException("Dữ liệu nhóm người dùng không hợp lệ.");
             }
 
-            return dalNhomNguoiDung.Update(updatedUserGroup);
+            return dalNguoiDungNhom.Update(updatedUserGroup);
         }
 
-        // Xóa nhóm người dùng
-        public bool Delete(string username, int groupId)
+        // Xóa quan hệ người dùng - nhóm người dùng
+        public bool Delete(string username, string groupId)
         {
-            if (string.IsNullOrEmpty(username) || groupId <= 0)
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(groupId))
             {
-                throw new ArgumentException("Tên đăng nhập và mã nhóm người dùng không hợp lệ.");
+                throw new ArgumentException("Tên đăng nhập và mã nhóm người dùng không được để trống.");
             }
-            return dalNhomNguoiDung.Delete(username, groupId);
+
+            return dalNguoiDungNhom.Delete(username, groupId);
         }
     }
 }

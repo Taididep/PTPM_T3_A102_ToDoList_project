@@ -14,16 +14,17 @@ namespace DAL
         {
             return qlcv.QL_NguoiDungNhomNguoiDungs.Select(n => new
             {
-                n.Id,
                 n.TenDangNhap,
-                n.MaNhom
+                n.MaNhomNguoiDung,
+                n.GhiChu
             });
         }
 
-        // Lấy thông tin một người dùng thuộc nhóm theo ID
-        public QL_NguoiDungNhomNguoiDung GetOne(int id)
+        // Lấy thông tin một người dùng thuộc nhóm theo TenDangNhap và MaNhomNguoiDung
+        public QL_NguoiDungNhomNguoiDung GetOne(string tenDangNhap, string maNhomNguoiDung)
         {
-            return qlcv.QL_NguoiDungNhomNguoiDungs.FirstOrDefault(n => n.Id == id);
+            return qlcv.QL_NguoiDungNhomNguoiDungs
+                .FirstOrDefault(n => n.TenDangNhap == tenDangNhap && n.MaNhomNguoiDung == maNhomNguoiDung);
         }
 
         // Thêm mới quan hệ người dùng - nhóm người dùng
@@ -41,12 +42,13 @@ namespace DAL
             }
         }
 
-        // Xóa quan hệ người dùng - nhóm người dùng theo ID
-        public bool Delete(int id)
+        // Xóa quan hệ người dùng - nhóm người dùng theo TenDangNhap và MaNhomNguoiDung
+        public bool Delete(string tenDangNhap, string maNhomNguoiDung)
         {
             try
             {
-                var nguoiDungNhom = qlcv.QL_NguoiDungNhomNguoiDungs.FirstOrDefault(n => n.Id == id);
+                var nguoiDungNhom = qlcv.QL_NguoiDungNhomNguoiDungs
+                    .FirstOrDefault(n => n.TenDangNhap == tenDangNhap && n.MaNhomNguoiDung == maNhomNguoiDung);
                 if (nguoiDungNhom != null)
                 {
                     qlcv.QL_NguoiDungNhomNguoiDungs.DeleteOnSubmit(nguoiDungNhom);
@@ -66,11 +68,12 @@ namespace DAL
         {
             try
             {
-                var nguoiDungNhom = qlcv.QL_NguoiDungNhomNguoiDungs.FirstOrDefault(n => n.Id == updatedNguoiDungNhom.Id);
+                var nguoiDungNhom = qlcv.QL_NguoiDungNhomNguoiDungs
+                    .FirstOrDefault(n => n.TenDangNhap == updatedNguoiDungNhom.TenDangNhap
+                                      && n.MaNhomNguoiDung == updatedNguoiDungNhom.MaNhomNguoiDung);
                 if (nguoiDungNhom != null)
                 {
-                    nguoiDungNhom.TenDangNhap = updatedNguoiDungNhom.TenDangNhap;
-                    nguoiDungNhom.MaNhom = updatedNguoiDungNhom.MaNhom;
+                    nguoiDungNhom.GhiChu = updatedNguoiDungNhom.GhiChu;
                     qlcv.SubmitChanges();
                     return true;
                 }
