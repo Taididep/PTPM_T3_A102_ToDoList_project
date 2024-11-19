@@ -28,17 +28,17 @@ namespace BLL
         {
             if (newScreen == null)
             {
-                throw new ArgumentNullException(nameof(newScreen), "Dữ liệu màn hình không hợp lệ.");
+                return false;
             }
 
-            if (string.IsNullOrEmpty(newScreen.MaManHinh) || newScreen.MaManHinh.Length > 50)
+            if (string.IsNullOrEmpty(newScreen.MaManHinh))
             {
-                throw new ArgumentException("Mã màn hình không được để trống và phải nhỏ hơn 50 ký tự.");
+                return false;
             }
 
-            if (string.IsNullOrEmpty(newScreen.TenManHinh) || newScreen.TenManHinh.Length > 255)
+            if (string.IsNullOrEmpty(newScreen.TenManHinh))
             {
-                throw new ArgumentException("Tên màn hình không được để trống và phải nhỏ hơn 255 ký tự.");
+                return false;
             }
 
             return dalManHinh.Insert(newScreen);
@@ -49,12 +49,12 @@ namespace BLL
         {
             if (updatedScreen == null || string.IsNullOrEmpty(updatedScreen.MaManHinh))
             {
-                throw new ArgumentException("Mã màn hình không hợp lệ.");
+                return false;
             }
 
-            if (string.IsNullOrEmpty(updatedScreen.TenManHinh) || updatedScreen.TenManHinh.Length > 255)
+            if (string.IsNullOrEmpty(updatedScreen.TenManHinh))
             {
-                throw new ArgumentException("Tên màn hình không được để trống và phải nhỏ hơn 255 ký tự.");
+                return false;
             }
 
             return dalManHinh.Update(updatedScreen);
@@ -65,7 +65,7 @@ namespace BLL
         {
             if (string.IsNullOrEmpty(maManHinh))
             {
-                throw new ArgumentException("Mã màn hình không được để trống.");
+                return false;
             }
             return dalManHinh.Delete(maManHinh);
         }

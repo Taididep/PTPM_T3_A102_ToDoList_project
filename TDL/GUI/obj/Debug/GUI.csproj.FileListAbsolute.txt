@@ -64,3 +64,11 @@ D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\Newtonsoft.Json.Bs
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\System.Buffers.xml
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\System.Numerics.Vectors.xml
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\GUI\obj\Debug\GUI.Frm_CongViec.resources
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\GUI\obj\Debug\GUI.Frm_login.resources
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\GUI\obj\Debug\GUI.Frm_main.resources
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\GUI\obj\Debug\GUI.exe
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\GUI\obj\Debug\GUI.pdb

@@ -1,7 +1,6 @@
 ﻿using DTO;
 using DAL;
 using System.Linq;
-using System;
 
 namespace BLL
 {
@@ -22,7 +21,7 @@ namespace BLL
         {
             if (string.IsNullOrEmpty(maNhomNguoiDung) || string.IsNullOrEmpty(maManHinh))
             {
-                throw new ArgumentException("Mã nhóm người dùng hoặc mã màn hình không hợp lệ.");
+                return null;
             }
             return dalPhanQuyen.GetOne(maNhomNguoiDung, maManHinh);
         }
@@ -32,12 +31,12 @@ namespace BLL
         {
             if (newPermission == null)
             {
-                throw new ArgumentNullException(nameof(newPermission), "Dữ liệu phân quyền không hợp lệ.");
+                return false;
             }
 
             if (string.IsNullOrEmpty(newPermission.MaNhomNguoiDung) || string.IsNullOrEmpty(newPermission.MaManHinh))
             {
-                throw new ArgumentException("Mã nhóm người dùng và mã màn hình không được để trống.");
+                return false;
             }
 
             return dalPhanQuyen.Insert(newPermission);
@@ -48,7 +47,7 @@ namespace BLL
         {
             if (updatedPermission == null || string.IsNullOrEmpty(updatedPermission.MaNhomNguoiDung) || string.IsNullOrEmpty(updatedPermission.MaManHinh))
             {
-                throw new ArgumentException("Dữ liệu phân quyền không hợp lệ.");
+                return false;
             }
 
             return dalPhanQuyen.Update(updatedPermission);
@@ -59,7 +58,7 @@ namespace BLL
         {
             if (string.IsNullOrEmpty(maNhomNguoiDung) || string.IsNullOrEmpty(maManHinh))
             {
-                throw new ArgumentException("Mã nhóm người dùng và mã màn hình không hợp lệ.");
+                return false;
             }
             return dalPhanQuyen.Delete(maNhomNguoiDung, maManHinh);
         }

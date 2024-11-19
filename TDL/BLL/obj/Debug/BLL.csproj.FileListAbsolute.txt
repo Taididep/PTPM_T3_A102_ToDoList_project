@@ -21,3 +21,12 @@ D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\BLL\obj\Debug\BLL.csproj.Up2Date
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\BLL\obj\Debug\BLL.dll
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\BLL\obj\Debug\BLL.pdb
 D:\Learning\2. Phat trien ung dung\DoAnToDo\TDL\BLL\bin\Debug\DTO.dll.config
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\BLL\obj\Debug\BLL.dll
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\BLL\bin\Debug\BLL.dll
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\BLL\bin\Debug\BLL.pdb
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\BLL\bin\Debug\DAL.dll
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\BLL\bin\Debug\DTO.dll
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\BLL\bin\Debug\DAL.pdb
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\BLL\bin\Debug\DTO.pdb
+D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\BLL\obj\Debug\BLL.pdb

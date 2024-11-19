@@ -22,7 +22,7 @@ namespace BLL
         {
             if (string.IsNullOrEmpty(groupId))
             {
-                throw new ArgumentException("Mã nhóm người dùng không hợp lệ.");
+                return null;
             }
             return dalNhomNguoiDung.GetOne(groupId);
         }
@@ -32,12 +32,12 @@ namespace BLL
         {
             if (newGroup == null)
             {
-                throw new ArgumentNullException(nameof(newGroup), "Dữ liệu nhóm người dùng không hợp lệ.");
+                return false;
             }
 
-            if (string.IsNullOrEmpty(newGroup.TenNhom) || newGroup.TenNhom.Length > 255)
+            if (string.IsNullOrEmpty(newGroup.TenNhom))
             {
-                throw new ArgumentException("Tên nhóm người dùng không được để trống và phải nhỏ hơn 255 ký tự.");
+                return false;
             }
 
             return dalNhomNguoiDung.Insert(newGroup);
@@ -48,12 +48,12 @@ namespace BLL
         {
             if (updatedGroup == null || string.IsNullOrEmpty(updatedGroup.MaNhom))
             {
-                throw new ArgumentException("Mã nhóm người dùng không hợp lệ.");
+                return false;
             }
 
-            if (string.IsNullOrEmpty(updatedGroup.TenNhom) || updatedGroup.TenNhom.Length > 255)
+            if (string.IsNullOrEmpty(updatedGroup.TenNhom))
             {
-                throw new ArgumentException("Tên nhóm người dùng không được để trống và phải nhỏ hơn 255 ký tự.");
+                return false;
             }
 
             return dalNhomNguoiDung.Update(updatedGroup);
@@ -64,7 +64,7 @@ namespace BLL
         {
             if (string.IsNullOrEmpty(groupId))
             {
-                throw new ArgumentException("Mã nhóm người dùng không hợp lệ.");
+                return false;
             }
             return dalNhomNguoiDung.Delete(groupId);
         }

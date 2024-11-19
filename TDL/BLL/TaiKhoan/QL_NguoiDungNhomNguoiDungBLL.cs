@@ -1,7 +1,6 @@
 ﻿using DTO;
 using DAL;
 using System.Linq;
-using System;
 
 namespace BLL
 {
@@ -22,7 +21,7 @@ namespace BLL
         {
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(groupId))
             {
-                throw new ArgumentException("Tên đăng nhập và mã nhóm người dùng không được để trống.");
+                return null; // Trả về null nếu dữ liệu không hợp lệ
             }
 
             return dalNguoiDungNhom.GetOne(username, groupId);
@@ -31,14 +30,9 @@ namespace BLL
         // Thêm mới quan hệ người dùng - nhóm người dùng
         public bool Insert(QL_NguoiDungNhomNguoiDung newUserGroup)
         {
-            if (newUserGroup == null)
+            if (newUserGroup == null || string.IsNullOrEmpty(newUserGroup.TenDangNhap) || string.IsNullOrEmpty(newUserGroup.MaNhomNguoiDung))
             {
-                throw new ArgumentNullException(nameof(newUserGroup), "Dữ liệu nhóm người dùng không hợp lệ.");
-            }
-
-            if (string.IsNullOrEmpty(newUserGroup.TenDangNhap) || string.IsNullOrEmpty(newUserGroup.MaNhomNguoiDung))
-            {
-                throw new ArgumentException("Tên đăng nhập và mã nhóm người dùng phải hợp lệ.");
+                return false; // Trả về false nếu dữ liệu không hợp lệ
             }
 
             return dalNguoiDungNhom.Insert(newUserGroup);
@@ -47,11 +41,9 @@ namespace BLL
         // Cập nhật thông tin quan hệ người dùng - nhóm người dùng
         public bool Update(QL_NguoiDungNhomNguoiDung updatedUserGroup)
         {
-            if (updatedUserGroup == null
-                || string.IsNullOrEmpty(updatedUserGroup.TenDangNhap)
-                || string.IsNullOrEmpty(updatedUserGroup.MaNhomNguoiDung))
+            if (updatedUserGroup == null || string.IsNullOrEmpty(updatedUserGroup.TenDangNhap) || string.IsNullOrEmpty(updatedUserGroup.MaNhomNguoiDung))
             {
-                throw new ArgumentException("Dữ liệu nhóm người dùng không hợp lệ.");
+                return false; // Trả về false nếu dữ liệu không hợp lệ
             }
 
             return dalNguoiDungNhom.Update(updatedUserGroup);
@@ -62,7 +54,7 @@ namespace BLL
         {
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(groupId))
             {
-                throw new ArgumentException("Tên đăng nhập và mã nhóm người dùng không được để trống.");
+                return false; // Trả về false nếu dữ liệu không hợp lệ
             }
 
             return dalNguoiDungNhom.Delete(username, groupId);
