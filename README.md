@@ -10,9 +10,9 @@
 
 
 ## Công nghệ sử dụng
-- Visual Studio 2020 (Winform C#)
-- visual Studio Code (Webform PHP)
-- SQL Server, MySQL
+- Visual Studio 2020 (Winform)
+- visual Studio Code (Webform)
+- SQL Server
 
 ## Thông tin mô tả dự án
 - Giúp người dùng lên kế hoạch, theo dõi và quản lý các nhiệm vụ và sự kiện quan trọng.
@@ -59,27 +59,29 @@
 ### 🖥Winform
 | Người thực hiện    | Công việc đảm nhận                                                          | Tiến độ  |
 |--------------------|-----------------------------------------------------------------------------|:--------:|
-| Đinh Văn Tài       | 8. Xây dụng giao diện người dùng(login,register,admin,..)                   |     100% |      
-|                    | 1. Tạo Task công việc(crud, gim công việc)                                  |     10%   |    
-|                    | 7. Sao lưu tài khoản, thiết bị                                              |     0%   |   
-| Hồ thiên Tỷ        | 9. Xây dựng giao diện, cho phép thiết lập giao diện(đổi màu tùy chỉnh...)   |     0%   |
-|                    | 4. Thông báo, nhắc nhở hết hạn, chọn nhắc nhở                               |     5%   | 
-| Hồ Ngọc Tùng       | 3. Tạo các danh mục và nhãn(loại công việc, thêm loại)                      |     10%   |
-|                    | 2. Đặt thời gian, thời hạn, lặp lại công việc                               |     0%   | 
-|                    | 6. Thống kê việc hoàn thành, tiến độ...                                     |     10%   | 
+| Đinh Văn Tài       | Xây dụng giao diện người dùng(login,register,admin,..)                   |     70% |      
+|                    | Tạo Task công việc(crud, gim công việc)                                  |     10%   |    
+|                    | Sao lưu tài khoản, thiết bị                                              |     0%   |
+|                    | Tạo giao diện                                              		|     0%   |   
+| Hồ thiên Tỷ        | Xây dựng giao diện, cho phép thiết lập giao diện(đổi màu tùy chỉnh...)   |     0%   |
+|                    | Thông báo, nhắc nhở hết hạn, chọn nhắc nhở                               |     5%   |
+|                    | Thiết kế database                               				|     70%   |  
+| Hồ Ngọc Tùng       | Tạo các danh mục và nhãn(loại công việc, thêm loại)                      |     10%   |
+|                    | Đặt thời gian, thời hạn, lặp lại công việc                               |     0%   | 
+|                    | Thống kê việc hoàn thành, tiến độ...                                     |     10%   | 
 
 ### 🌎Webform
 | Người thực hiện    | Công việc đảm nhận                                                          | Tiến độ  |
 |--------------------|-----------------------------------------------------------------------------|:--------:|
-| Đinh Văn Tài       | 8. Xây dụng giao diện người dùng(login,register,admin,..)                   |     0%   |      
-|                    | 1. Tạo Task công việc(crud, gim công việc)                                  |     0%   |    
-|                    | 7. Sao lưu tài khoản, thiết bị                                              |     0%   |   
-| Hồ thiên Tỷ        | 9. Xây dựng giao diện, cho phép thiết lập giao diện(đổi màu tùy chỉnh...)   |     0%   |
-|                    | 4. Thông báo, nhắc nhở hết hạn, chọn nhắc nhở                               |     0%   | 
-|                    | 5. Tạo comments(bình luận,...), share....                                   |     0%   | 
-| Hồ Ngọc Tùng       | 3. Tạo các danh mục và nhãn(loại công việc, thêm loại)                      |     0%   |
-|                    | 2. Đặt thời gian, thời hạn, lặp lại công việc                               |     0%   | 
-|                    | 6. Thống kê việc hoàn thành, tiến độ...                                     |     0%   | 
+| Đinh Văn Tài       | Xây dụng giao diện người dùng(login,register,admin,..)                   |     50%   |      
+|                    | Tạo Task công việc(crud, gim công việc)                                  |     0%   |    
+|                    | Sao lưu tài khoản, thiết bị                                              |     0%   |   
+| Hồ thiên Tỷ        | Xây dựng giao diện, cho phép thiết lập giao diện(đổi màu tùy chỉnh...)   |     0%   |
+|                    | Thông báo, nhắc nhở hết hạn, chọn nhắc nhở                               |     10%   | 
+|                    | Tạo comments(bình luận,...), share....                                   |     0%   | 
+| Hồ Ngọc Tùng       | Tạo các danh mục và nhãn(loại công việc, thêm loại)                      |     40%   |
+|                    | Đặt thời gian, thời hạn, lặp lại công việc                               |     0%   | 
+|                    | Thống kê việc hoàn thành, tiến độ...                                     |     0%   | 
 
 
 
