@@ -36,6 +36,22 @@ namespace API.Controllers
             return Ok(congViecs);
         }
 
+        // GET: api/CongViec/GetByID/{maCongViec}
+        [HttpGet]
+        [Route("GetByID/{maCongViec:int}")]
+        public IHttpActionResult GetByID(int maCongViec)
+        {
+            if (maCongViec <= 0)
+                return BadRequest("Mã công việc không hợp lệ.");
+
+            var congViec = _congViecBLL.GetByID(maCongViec);
+            if (congViec == null)
+                return NotFound();
+
+            return Ok(congViec);
+        }
+
+
         // POST: api/CongViec/Insert
         [HttpPost]
         [Route("Insert")]

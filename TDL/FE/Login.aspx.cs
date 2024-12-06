@@ -24,7 +24,7 @@ namespace FE
             }
         }
 
-        private async Task HandleLoginAsync()
+        protected async Task HandleLoginAsync()
         {
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();
@@ -50,18 +50,15 @@ namespace FE
                         var result = await response.Content.ReadAsStringAsync();
                         if (result.Contains("\"message\":\"Success\""))
                         {
+                            Session["TenDangNhap"] = username; // Lưu TenDangNhap vào Session
                             lblMessage.ForeColor = System.Drawing.Color.Green;
                             lblMessage.Text = "Đăng nhập thành công!";
-                            Response.Redirect("/WebForm/Home.aspx", false);
+                            Response.Redirect("/Home/Index.aspx", false);
                             Context.ApplicationInstance.CompleteRequest();
                         }
-                        else if (result.Contains("\"message\":\"Invalid\""))
+                        else
                         {
                             lblMessage.Text = "Sai tên đăng nhập hoặc mật khẩu.";
-                        }
-                        else if (result.Contains("\"message\":\"Disabled\""))
-                        {
-                            lblMessage.Text = "Tài khoản bị khóa.";
                         }
                     }
                     else
@@ -75,5 +72,6 @@ namespace FE
                 lblMessage.Text = $"Lỗi: {ex.Message}";
             }
         }
+
     }
 }

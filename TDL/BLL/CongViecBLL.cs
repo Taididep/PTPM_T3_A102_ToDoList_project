@@ -31,6 +31,13 @@ namespace BLL
             return maDanhMuc <= 0 ? new List<CongViecDTO>() : dalCongViec.GetByDanhMuc(maDanhMuc);
         }
 
+        // Lấy công việc theo MaCongViec
+        public CongViecDTO GetByID(int maCongViec)
+        {
+            return maCongViec > 0 ? dalCongViec.GetByID(maCongViec) : null;
+        }
+
+
         // Thêm công việc mới
         public bool Insert(CongViecDTO congViec)
         {
