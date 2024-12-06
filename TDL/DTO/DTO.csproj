@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CongViecDanhMucDTO.cs" />
     <Compile Include="CongViecDTO.cs" />
     <Compile Include="DanhMucDTO.cs" />
+    <Compile Include="LichSuCongViecDTO.cs" />
+    <Compile Include="NhacNhoDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -56,7 +59,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLCONGVIEC.dbml</DependentUpon>
     </Compile>
-    <Compile Include="QL_NguoiDungDTO.cs" />
+    <Compile Include="TaiKhoan\DM_ManHinhDTO.cs" />
+    <Compile Include="TaiKhoan\QL_NguoiDungDTO.cs" />
+    <Compile Include="TaiKhoan\QL_NguoiDungNhomNguoiDungDTO.cs" />
+    <Compile Include="TaiKhoan\QL_NhomNguoiDungDTO.cs" />
+    <Compile Include="TaiKhoan\QL_PhanQuyenDTO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
