@@ -3,27 +3,35 @@
   "WorkspaceRootPath": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\dal\\taikhoan\\ql_nguoidungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|d:\\lesson\\doan3chi\\todo\\tdl\\dal\\taikhoan\\ql_nguoidungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoan\\ql_nguoidungdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\lesson\\doan3chi\\todo\\tdl\\fe\\webform\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\webform\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\dal\\taikhoan\\dm_manhinhdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoan\\dm_manhinhdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3852A58A-C1F8-4F65-9B5E-74C2B37FA82C}|DTO\\DTO.csproj|d:\\lesson\\doan3chi\\todo\\tdl\\dto\\qlcongviec.dbml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\bll\\nhacnhobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|solutionrelative:bll\\nhacnhobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\lesson\\doan3chi\\todo\\tdl\\fe\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3852A58A-C1F8-4F65-9B5E-74C2B37FA82C}|DTO\\DTO.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\dto\\qlcongviec.dbml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3852A58A-C1F8-4F65-9B5E-74C2B37FA82C}|DTO\\DTO.csproj|solutionrelative:dto\\qlcongviec.dbml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\lesson\\doan3chi\\todo\\tdl\\fe\\webform\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\webform\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\lesson\\doan3chi\\todo\\tdl\\fe\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3852A58A-C1F8-4F65-9B5E-74C2B37FA82C}|DTO\\DTO.csproj|d:\\lesson\\doan3chi\\todo\\tdl\\dto\\taikhoan\\ql_nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3852A58A-C1F8-4F65-9B5E-74C2B37FA82C}|DTO\\DTO.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\dto\\taikhoan\\ql_nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3852A58A-C1F8-4F65-9B5E-74C2B37FA82C}|DTO\\DTO.csproj|solutionrelative:dto\\taikhoan\\ql_nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|d:\\lesson\\doan3chi\\todo\\tdl\\bll\\taikhoan\\ql_phanquyenbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\bll\\taikhoan\\ql_phanquyenbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|solutionrelative:bll\\taikhoan\\ql_phanquyenbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -53,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\bll\\taikhoan\\ql_nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|solutionrelative:bll\\taikhoan\\ql_nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\dal\\taikhoan\\dm_manhinhdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoan\\dm_manhinhdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C9CBC7D-7CA1-4DE0-9D37-597785EDAD22}|DAL\\DAL.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\dal\\congviecdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,10 +203,6 @@
       "RelativeMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|solutionrelative:gui\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\bll\\nhacnhobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|solutionrelative:bll\\nhacnhobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\uc\\controls\\txt_username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|solutionrelative:uc\\controls\\txt_username.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -234,11 +234,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 305,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Uc_login.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\UC\\UserControls\\Uc_login.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_login.cs",
@@ -252,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "NguoiDungController.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\NguoiDungController.cs",
@@ -266,7 +266,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QL_NguoiDungDAL.cs",
+              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
+              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
+              "RelativeToolTip": "DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T18:38:03.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DM_ManHinhDAL.cs",
+              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
+              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
+              "RelativeToolTip": "DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
+              "ViewState": "AgIAADAAAACAmZmZmZkrwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T18:29:12.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "NhacNhoBLL.cs",
+              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\NhacNhoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NhacNhoBLL.cs",
+              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\NhacNhoBLL.cs",
+              "RelativeToolTip": "BLL\\NhacNhoBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T15:48:13.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\Login.aspx",
+              "RelativeDocumentMoniker": "FE\\Login.aspx",
+              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\Login.aspx",
+              "RelativeToolTip": "FE\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T09:03:15.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "QLCONGVIEC.dbml",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DTO\\QLCONGVIEC.dbml",
               "RelativeDocumentMoniker": "DTO\\QLCONGVIEC.dbml",
@@ -279,20 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QL_NguoiDungDAL.cs",
-              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
-              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
-              "RelativeToolTip": "DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvxkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:38:03.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "QL_NguoiDungDTO.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DTO\\TaiKhoan\\QL_NguoiDungDTO.cs",
               "RelativeDocumentMoniker": "DTO\\TaiKhoan\\QL_NguoiDungDTO.cs",
@@ -305,20 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\WebForm\\Login.aspx",
-              "RelativeDocumentMoniker": "FE\\WebForm\\Login.aspx",
-              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\WebForm\\Login.aspx",
-              "RelativeToolTip": "FE\\WebForm\\Login.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T09:03:15.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "QL_PhanQuyenBLL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\TaiKhoan\\QL_PhanQuyenBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\QL_PhanQuyenBLL.cs",
@@ -331,12 +357,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Login.aspx.cs",
-              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\WebForm\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "FE\\WebForm\\Login.aspx.cs",
-              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\WebForm\\Login.aspx.cs",
-              "RelativeToolTip": "FE\\WebForm\\Login.aspx.cs",
+              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "FE\\Login.aspx.cs",
+              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\Login.aspx.cs",
+              "RelativeToolTip": "FE\\Login.aspx.cs",
               "ViewState": "AgIAACIAAAAANDMzMzMDwDQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T09:03:23.522Z",
@@ -344,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "QL_PhanQuyenDAL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\QL_PhanQuyenDAL.cs",
               "RelativeDocumentMoniker": "DAL\\TaiKhoan\\QL_PhanQuyenDAL.cs",
@@ -357,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "QL_NhomNguoiDungBLL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\TaiKhoan\\QL_NhomNguoiDungBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\QL_NhomNguoiDungBLL.cs",
@@ -370,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "QL_NhomNguoiDungDAL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\QL_NhomNguoiDungDAL.cs",
               "RelativeDocumentMoniker": "DAL\\TaiKhoan\\QL_NhomNguoiDungDAL.cs",
@@ -383,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "QL_NguoiDungNhomNguoiDungBLL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\TaiKhoan\\QL_NguoiDungNhomNguoiDungBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\QL_NguoiDungNhomNguoiDungBLL.cs",
@@ -396,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "QL_NguoiDungNhomNguoiDungDAL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\QL_NguoiDungNhomNguoiDungDAL.cs",
               "RelativeDocumentMoniker": "DAL\\TaiKhoan\\QL_NguoiDungNhomNguoiDungDAL.cs",
@@ -409,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DM_ManHinhBLL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\TaiKhoan\\DM_ManHinhBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\DM_ManHinhBLL.cs",
@@ -422,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "QL_NguoiDungBLL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\TaiKhoan\\QL_NguoiDungBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\QL_NguoiDungBLL.cs",
@@ -435,20 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DM_ManHinhDAL.cs",
-              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
-              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
-              "RelativeToolTip": "DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T18:29:12.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CongViecDAL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\CongViecDAL.cs",
               "RelativeDocumentMoniker": "DAL\\CongViecDAL.cs",
@@ -461,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Default.aspx",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\Default.aspx",
               "RelativeDocumentMoniker": "FE\\Default.aspx",
@@ -474,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\Web.config",
               "RelativeDocumentMoniker": "API\\Web.config",
@@ -487,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "API\\App_Start\\WebApiConfig.cs",
@@ -511,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Contact.aspx",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\Contact.aspx",
               "RelativeDocumentMoniker": "FE\\Contact.aspx",
@@ -524,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "About.aspx",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\FE\\About.aspx",
               "RelativeDocumentMoniker": "FE\\About.aspx",
@@ -537,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "API\\Views\\Shared\\_Layout.cshtml",
@@ -550,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "API\\Views\\Home\\Index.cshtml",
@@ -563,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "API\\Views\\Shared\\Error.cshtml",
@@ -576,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "DanhMucController.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\Controllers\\DanhMucController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\DanhMucController.cs",
@@ -589,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CongViecController.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\Controllers\\CongViecController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\CongViecController.cs",
@@ -602,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Frm_main.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\GUI\\Frm_main.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_main.cs",
@@ -615,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CongViecBLL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\CongViecBLL.cs",
               "RelativeDocumentMoniker": "BLL\\CongViecBLL.cs",
@@ -628,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CongViecDTO.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DTO\\CongViecDTO.cs",
               "RelativeDocumentMoniker": "DTO\\CongViecDTO.cs",
@@ -641,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Frm_main.cs [Design]",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\GUI\\Frm_main.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_main.cs",
@@ -653,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Uc_login.cs [Design]",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\UC\\UserControls\\Uc_login.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_login.cs",
@@ -665,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\HomeController.cs",
@@ -678,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "DanhMucDTO.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DTO\\DanhMucDTO.cs",
               "RelativeDocumentMoniker": "DTO\\DanhMucDTO.cs",
@@ -691,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "packages.config",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\packages.config",
               "RelativeDocumentMoniker": "API\\packages.config",
@@ -704,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Frm_main.Designer.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\GUI\\Frm_main.Designer.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_main.Designer.cs",
@@ -717,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Frm_login.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\GUI\\Frm_login.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_login.cs",
@@ -730,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\API\\Global.asax.cs",
               "RelativeDocumentMoniker": "API\\Global.asax.cs",
@@ -743,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Uc_login.Designer.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\UC\\UserControls\\Uc_login.Designer.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_login.Designer.cs",
@@ -756,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Frm_CongViec.cs [Design]",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\GUI\\Frm_CongViec.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_CongViec.cs",
@@ -768,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "dtp_ngayHetHan.cs [Design]",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\UC\\Controls\\dtp_ngayHetHan.cs",
               "RelativeDocumentMoniker": "UC\\Controls\\dtp_ngayHetHan.cs",
@@ -780,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "dtp_ngayHetHan.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\UC\\Controls\\dtp_ngayHetHan.cs",
               "RelativeDocumentMoniker": "UC\\Controls\\dtp_ngayHetHan.cs",
@@ -793,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Uc_congViec.cs [Design]",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\UC\\UserControls\\Uc_congViec.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_congViec.cs",
@@ -805,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Txt_password.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\UC\\Controls\\Txt_password.cs",
               "RelativeDocumentMoniker": "UC\\Controls\\Txt_password.cs",
@@ -818,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Frm_CongViec.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\GUI\\Frm_CongViec.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_CongViec.cs",
@@ -831,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Uc_congViec.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\UC\\UserControls\\Uc_congViec.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_congViec.cs",
@@ -844,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "DanhMucBLL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\DanhMucBLL.cs",
               "RelativeDocumentMoniker": "BLL\\DanhMucBLL.cs",
@@ -857,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "DanhMucDAL.cs",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\DAL\\DanhMucDAL.cs",
               "RelativeDocumentMoniker": "DAL\\DanhMucDAL.cs",
@@ -870,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Frm_login.cs [Design]",
               "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\GUI\\Frm_login.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_login.cs",
@@ -879,19 +892,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T15:14:05.58Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "NhacNhoBLL.cs",
-              "DocumentMoniker": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\NhacNhoBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\NhacNhoBLL.cs",
-              "ToolTip": "D:\\Lesson\\doAn3Chi\\ToDo\\TDL\\BLL\\NhacNhoBLL.cs",
-              "RelativeToolTip": "BLL\\NhacNhoBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T15:48:13.174Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
