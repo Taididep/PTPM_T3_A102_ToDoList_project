@@ -133,7 +133,7 @@ namespace GUI
                 int maDanhMuc = (int)btn.Tag;
 
                 // Lấy danh sách công việc theo mã danh mục
-                var danhSachCongViec = congViecBLL.GetByDanhMuc(maDanhMuc);
+                var danhSachCongViec = congViecBLL.GetByTenDangNhapAndDanhMuc(TenDangNhap, maDanhMuc);
 
                 // Xóa các công việc cũ trong flp_congViec
                 flp_congViec.Controls.Clear();

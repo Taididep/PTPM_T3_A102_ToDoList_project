@@ -24,76 +24,40 @@ namespace FE.Home
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblTieuDe control.
+        /// txtTieuDe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTieuDe;
+        protected global::System.Web.UI.WebControls.TextBox txtTieuDe;
 
         /// <summary>
-        /// lblTieuDeContent control.
+        /// txtNgayHetHan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTieuDeContent;
+        protected global::System.Web.UI.WebControls.TextBox txtNgayHetHan;
 
         /// <summary>
-        /// lblMoTa control.
+        /// chkHoanThanh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMoTa;
+        protected global::System.Web.UI.WebControls.CheckBox chkHoanThanh;
 
         /// <summary>
-        /// lblMoTaContent control.
+        /// txtMoTa control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMoTaContent;
-
-        /// <summary>
-        /// lblNgayHetHan control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNgayHetHan;
-
-        /// <summary>
-        /// lblNgayHetHanContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNgayHetHanContent;
-
-        /// <summary>
-        /// lblHoanThanh control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblHoanThanh;
-
-        /// <summary>
-        /// lblHoanThanhContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblHoanThanhContent;
+        protected global::System.Web.UI.WebControls.TextBox txtMoTa;
 
         /// <summary>
         /// btnBack control.
@@ -103,5 +67,14 @@ namespace FE.Home
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnBack;
+
+        /// <summary>
+        /// btnSave control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSave;
     }
 }

@@ -41,6 +41,23 @@ namespace DAL
                 }).ToList();
         }
 
+        // Lấy danh sách công việc theo danh mục
+        public List<CongViecDTO> GetByTenDangNhapAndDanhMuc(int maDanhMuc, string tenDangNhap)
+        {
+            return qlcv.CongViecDanhMucs
+                .Where(cdm => cdm.MaDanhMuc == maDanhMuc && cdm.CongViec.TenDangNhap == tenDangNhap)
+                .Select(cdm => cdm.CongViec)
+                .Select(cv => new CongViecDTO
+                {
+                    MaCongViec = cv.MaCongViec,
+                    TenDangNhap = cv.TenDangNhap,
+                    TieuDe = cv.TieuDe,
+                    MoTa = cv.MoTa,
+                    NgayHetHan = cv.NgayHetHan,
+                    HoanThanh = cv.HoanThanh
+                }).ToList();
+        }
+
         // Lấy công việc theo MaCongViec
         public CongViecDTO GetByID(int maCongViec)
         {
@@ -60,24 +77,6 @@ namespace DAL
             return congViec;
         }
 
-
-
-        // Lấy danh sách công việc theo danh mục
-        public List<CongViecDTO> GetByDanhMuc(int maDanhMuc)
-        {
-            return qlcv.CongViecDanhMucs
-                .Where(cdm => cdm.MaDanhMuc == maDanhMuc)
-                .Select(cdm => cdm.CongViec)
-                .Select(cv => new CongViecDTO
-                {
-                    MaCongViec = cv.MaCongViec,
-                    TenDangNhap = cv.TenDangNhap,
-                    TieuDe = cv.TieuDe,
-                    MoTa = cv.MoTa,
-                    NgayHetHan = cv.NgayHetHan,
-                    HoanThanh = cv.HoanThanh
-                }).ToList();
-        }
 
         // Thêm công việc mới
         public bool Insert(CongViecDTO congViec)
@@ -146,5 +145,27 @@ namespace DAL
                 return false;
             }
         }
+
+        public bool UpdateHoanThanh(int maCongViec, bool hoanThanh)
+        {
+            try
+            {
+                var congViecToUpdate = qlcv.CongViecs.FirstOrDefault(cv => cv.MaCongViec == maCongViec);
+                if (congViecToUpdate != null)
+                {
+                    congViecToUpdate.HoanThanh = hoanThanh;
+                    qlcv.SubmitChanges();
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+
+
     }
 }

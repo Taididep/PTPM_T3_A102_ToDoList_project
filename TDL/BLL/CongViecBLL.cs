@@ -26,9 +26,14 @@ namespace BLL
         }
 
         // Lấy danh sách công việc theo danh mục
-        public List<CongViecDTO> GetByDanhMuc(int maDanhMuc)
+        public List<CongViecDTO> GetByTenDangNhapAndDanhMuc(string tenDangNhap, int maDanhMuc)
         {
-            return maDanhMuc <= 0 ? new List<CongViecDTO>() : dalCongViec.GetByDanhMuc(maDanhMuc);
+            if (string.IsNullOrEmpty(tenDangNhap) || maDanhMuc <= 0)
+            {
+                return new List<CongViecDTO>();
+            }
+
+            return dalCongViec.GetByTenDangNhapAndDanhMuc(maDanhMuc,tenDangNhap);
         }
 
         // Lấy công việc theo MaCongViec
@@ -61,5 +66,13 @@ namespace BLL
 
             return dalCongViec.Update(congViec);
         }
+
+        public bool UpdateHoanThanh(int maCongViec, bool hoanThanh)
+        {
+            return dalCongViec.UpdateHoanThanh(maCongViec, hoanThanh);
+        }
+
+
+
     }
 }

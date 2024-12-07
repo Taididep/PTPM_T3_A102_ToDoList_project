@@ -1,6 +1,7 @@
 ﻿using BLL;
 using DTO;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Http;
 
 namespace API.Controllers
@@ -27,14 +28,26 @@ namespace API.Controllers
             return Ok(congViecs);
         }
 
-        // GET: api/CongViec/GetByDanhMuc/{maDanhMuc}
+        // GET: api/CongViec/GetByTenDangNhapAndDanhMuc/{maDanhMuc}/{tenDangNhap}
         [HttpGet]
-        [Route("GetByDanhMuc/{maDanhMuc:int}")]
-        public IHttpActionResult GetByDanhMuc(int maDanhMuc)
+        [Route("GetByTenDangNhapAndDanhMuc/{maDanhMuc:int}/{tenDangNhap}")]
+        public IHttpActionResult GetByTenDangNhapAndDanhMuc(int maDanhMuc, string tenDangNhap)
         {
-            var congViecs = _congViecBLL.GetByDanhMuc(maDanhMuc);
+            if (string.IsNullOrEmpty(tenDangNhap))
+            {
+                return BadRequest("Tên đăng nhập không được trống.");
+            }
+
+            var congViecs = _congViecBLL.GetByTenDangNhapAndDanhMuc(tenDangNhap, maDanhMuc);
+
+            if (congViecs == null || !congViecs.Any())
+            {
+                return NotFound();
+            }
+
             return Ok(congViecs);
         }
+
 
         // GET: api/CongViec/GetByID/{maCongViec}
         [HttpGet]
@@ -81,6 +94,20 @@ namespace API.Controllers
             else
                 return BadRequest("Không thể cập nhật công việc.");
         }
+
+        [HttpPut]
+        [Route("UpdateHoanThanh/{maCongViec:int}/{hoanThanh:bool}")]
+        public IHttpActionResult UpdateHoanThanh(int maCongViec, bool hoanThanh)
+        {
+            var result = _congViecBLL.UpdateHoanThanh(maCongViec, hoanThanh);
+            if (result)
+                return Ok("Cập nhật trạng thái công việc thành công.");
+            else
+                return BadRequest("Không thể cập nhật trạng thái công việc.");
+        }
+
+
+
 
         // DELETE: api/CongViec/Delete/{maCongViec}
         [HttpDelete]
