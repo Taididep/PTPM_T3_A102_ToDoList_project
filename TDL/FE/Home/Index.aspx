@@ -5,12 +5,21 @@
         <div class="container mt-5">
             <h2 class="text-center mb-4">Danh sách công việc</h2>
 
-            <!-- Khu vực thêm công việc mới -->
-            <div class="mb-3 d-flex">
-                <asp:TextBox ID="txtTieuDe" runat="server" CssClass="form-control me-2" Placeholder="Nhập tiêu đề"></asp:TextBox>
-                <asp:Button ID="btnAdd" runat="server" CssClass="btn btn-primary" Text="Thêm" OnClick="btnAdd_Click" />
+            <div class="d-flex mb-3">
+                <!-- Thanh chọn danh mục chiếm 30% -->
+                <asp:DropDownList ID="ddlDanhMuc" runat="server" CssClass="form-select me-2" 
+                                  AutoPostBack="true" OnSelectedIndexChanged="ddlDanhMuc_SelectedIndexChanged" 
+                                  Style="flex: 0 0 10%;">
+                </asp:DropDownList>
+
+                <!-- Thanh thêm công việc chiếm 70% -->
+                <div class="d-flex" style="flex: 1 0 0;">
+                    <asp:TextBox ID="txtTieuDe" runat="server" CssClass="form-control me-2" Placeholder="Nhập tiêu đề"></asp:TextBox>
+                    <asp:Button ID="btnAdd" runat="server" CssClass="btn btn-primary" Text="Thêm" OnClick="btnAdd_Click" />
+                </div>
             </div>
 
+            <!-- Danh sách công việc -->
             <div class="table-responsive">
                 <asp:GridView ID="gvCongViec" runat="server" AutoGenerateColumns="False" CssClass="table table-bordered"
                     OnRowCommand="gvCongViec_RowCommand" OnRowDeleting="gvCongViec_RowDeleting" HeaderStyle-CssClass="d-none" ShowHeader="False">
@@ -48,29 +57,10 @@
                                             CommandArgument='<%# Eval("MaCongViec") %>' CssClass="btn btn-sm btn-outline-primary" />
                             </ItemTemplate>
                         </asp:TemplateField>
+
                     </Columns>
                 </asp:GridView>
             </div>
-        </div>
-        
-        <!-- Sidebar nằm bên trái với mũi tên điều khiển -->
-        <div id="sidebar" class="bg-light border-right">
-            <div class="sidebar-heading">Danh mục</div>
-            <div class="list-group list-group-flush">
-                <asp:Button ID="btnTatCa" runat="server" Text="Tất cả" CssClass="list-group-item list-group-item-action bg-light" OnClick="btnTatCa_Click" />
-                <asp:ListView ID="lvDanhMuc" runat="server" OnItemCommand="lvDanhMuc_ItemCommand">
-                    <ItemTemplate>
-                        <a href="#" class="list-group-item list-group-item-action bg-light" CommandArgument='<%# Eval("MaDanhMuc") %>'>
-                            <%# Eval("TenDanhMuc") %> <!-- Hiển thị tên danh mục -->
-                        </a>
-                    </ItemTemplate>
-                </asp:ListView>
-            </div>
-        </div>
-    
-        <!-- Mũi tên điều khiển -->
-        <div id="toggleButton" class="sidebar-toggle-btn">
-            <span id="toggleIcon" class="fas fa-chevron-right"></span>
         </div>
     </form>
 </asp:Content>

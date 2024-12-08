@@ -24,27 +24,9 @@ namespace FE.Home
                 }
                 else
                 {
-                    await LoadDanhMucAsync();
-                    await LoadDataAsync(tenDangNhap); // Load công việc mặc định (Tất cả)
+                    await LoadDanhMucAsync(tenDangNhap);
+                    await LoadDataAsync(tenDangNhap);
                 }
-            }
-        }
-
-        private async Task LoadDanhMucAsync()
-        {
-            var tenDangNhap = Session["TenDangNhap"] as string;
-            var url = $"https://localhost:44341/api/DanhMuc/GetByTenDangNhap/{tenDangNhap}";
-            var response = await client.GetAsync(url);
-
-            if (response.IsSuccessStatusCode)
-            {
-                var danhMucs = await response.Content.ReadAsAsync<List<DanhMucDTO>>();
-                lvDanhMuc.DataSource = danhMucs;
-                lvDanhMuc.DataBind();
-            }
-            else
-            {
-                Response.Write("<script>alert('Không thể lấy danh mục!');</script>");
             }
         }
 
@@ -75,21 +57,47 @@ namespace FE.Home
             }
         }
 
-        protected async void lvDanhMuc_ItemCommand(object sender, ListViewCommandEventArgs e)
+        private async Task LoadDanhMucAsync(string tenDangNhap)
         {
-            if (e.CommandName == "Select")
+            try
             {
-                int maDanhMuc = Convert.ToInt32(e.CommandArgument);
-                var tenDangNhap = Session["TenDangNhap"] as string;
-                await LoadDataAsync(tenDangNhap, maDanhMuc); // Tải công việc theo danh mục
+                var url = $"https://localhost:44341/api/DanhMuc/GetByTenDangNhap/{tenDangNhap}";
+                var response = await client.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var danhMucs = await response.Content.ReadAsAsync<List<DanhMucDTO>>();
+                    ddlDanhMuc.DataSource = danhMucs;
+                    ddlDanhMuc.DataTextField = "TenDanhMuc";
+                    ddlDanhMuc.DataValueField = "MaDanhMuc";
+                    ddlDanhMuc.DataBind();
+
+                    ddlDanhMuc.Items.Insert(0, new ListItem("Tất cả", "0"));
+                }
+                else
+                {
+                    Response.Write("<script>alert('Không thể tải danh mục!');</script>");
+                }
+            }
+            catch (Exception ex)
+            {
+                Response.Write($"<script>alert('Lỗi: {ex.Message}');</script>");
             }
         }
 
-
-        protected async void btnTatCa_Click(object sender, EventArgs e)
+        protected async void ddlDanhMuc_SelectedIndexChanged(object sender, EventArgs e)
         {
             var tenDangNhap = Session["TenDangNhap"] as string;
-            await LoadDataAsync(tenDangNhap); // Tải tất cả công việc
+            int maDanhMuc = Convert.ToInt32(ddlDanhMuc.SelectedValue);
+
+            if (maDanhMuc > 0)
+            {
+                await LoadDataAsync(tenDangNhap, maDanhMuc);
+            }
+            else
+            {
+                await LoadDataAsync(tenDangNhap);
+            }
         }
 
 

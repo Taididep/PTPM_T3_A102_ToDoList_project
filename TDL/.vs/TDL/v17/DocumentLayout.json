@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\learning\\2. phat trien ung dung\\ptpm_t3_a102_todolist_project\\tdl\\fe\\home\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\home\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\home\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|d:\\learning\\2. phat trien ung dung\\ptpm_t3_a102_todolist_project\\tdl\\fe\\home\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\home\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\api\\controllers\\congvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\controllers\\congvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\home\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\home\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\content\\todo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\content\\todo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|solutionrelative:gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|solutionrelative:gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\api\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|solutionrelative:gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\api\\controllers\\congvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFB0D88-A51D-475C-BFD8-375492D238B4}|API\\API.csproj|solutionrelative:api\\controllers\\congvieccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\bll\\congviecbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{D9D36B58-104B-445B-B945-4C131370A207}|BLL\\BLL.csproj|solutionrelative:bll\\congviecdanhmucbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\home\\details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\home\\details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -49,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3852A58A-C1F8-4F65-9B5E-74C2B37FA82C}|DTO\\DTO.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\dto\\congviecdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3852A58A-C1F8-4F65-9B5E-74C2B37FA82C}|DTO\\DTO.csproj|solutionrelative:dto\\congviecdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\content\\todo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\content\\todo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\todo.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
@@ -83,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\home\\details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|solutionrelative:fe\\home\\details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -113,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\uc\\usercontrols\\uc_congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BDDD40A8-24F1-4653-BCDB-FC269886BB22}|UC\\UC.csproj|solutionrelative:uc\\usercontrols\\uc_congviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69631D26-1165-4A2D-B23E-AF5A08E58B93}|GUI\\GUI.csproj|solutionrelative:gui\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95611FCA-2696-480A-9D52-50F99078F1AE}|FE\\FE.csproj|D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\fe\\content\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -318,26 +314,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Site.css",
-              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Content\\Site.css",
-              "RelativeDocumentMoniker": "FE\\Content\\Site.css",
-              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Content\\Site.css",
-              "RelativeToolTip": "FE\\Content\\Site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-06T16:03:23.279Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.aspx.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Home\\Index.aspx.cs",
               "RelativeDocumentMoniker": "FE\\Home\\Index.aspx.cs",
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Home\\Index.aspx.cs",
               "RelativeToolTip": "FE\\Home\\Index.aspx.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAmwFMAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEoAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T13:15:42.138Z",
               "IsPinned": true,
@@ -345,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.aspx",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Home\\Index.aspx",
               "RelativeDocumentMoniker": "FE\\Home\\Index.aspx",
@@ -354,71 +337,51 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-12-06T13:07:08.615Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CongViecDanhMucBLL.cs",
-              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\CongViecDanhMucBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\CongViecDanhMucBLL.cs",
-              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\CongViecDanhMucBLL.cs",
-              "RelativeToolTip": "BLL\\CongViecDanhMucBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T19:17:54.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DanhMucController.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Controllers\\DanhMucController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\DanhMucController.cs",
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Controllers\\DanhMucController.cs",
               "RelativeToolTip": "API\\Controllers\\DanhMucController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD8AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwEEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:57:34.849Z"
+              "WhenOpened": "2024-11-18T08:57:34.849Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "CongViecController.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Controllers\\CongViecController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\CongViecController.cs",
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Controllers\\CongViecController.cs",
               "RelativeToolTip": "API\\Controllers\\CongViecController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAqwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:47:11.874Z"
+              "WhenOpened": "2024-11-18T08:47:11.874Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CongViecDAL.cs",
-              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\CongViecDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\CongViecDAL.cs",
-              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\CongViecDAL.cs",
-              "RelativeToolTip": "DAL\\CongViecDAL.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowCwAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:22:59.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "ToDo.css",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Content\\ToDo.css",
               "RelativeDocumentMoniker": "FE\\Content\\ToDo.css",
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Content\\ToDo.css",
               "RelativeToolTip": "FE\\Content\\ToDo.css",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-07T14:50:22.012Z"
+              "WhenOpened": "2024-12-07T14:50:22.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CongViecBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\CongViecBLL.cs",
               "RelativeDocumentMoniker": "BLL\\CongViecBLL.cs",
@@ -436,13 +399,63 @@
               "RelativeDocumentMoniker": "GUI\\Frm_main.cs",
               "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_main.cs",
               "RelativeToolTip": "GUI\\Frm_main.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAEwIEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:30:04.354Z"
+              "WhenOpened": "2024-11-17T12:30:04.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Frm_main.cs [Design]",
+              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_main.cs",
+              "RelativeDocumentMoniker": "GUI\\Frm_main.cs",
+              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_main.cs [Design]",
+              "RelativeToolTip": "GUI\\Frm_main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:01:34.402Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Login.aspx",
+              "RelativeDocumentMoniker": "FE\\Login.aspx",
+              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Login.aspx",
+              "RelativeToolTip": "FE\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T09:03:15.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CongViecDAL.cs",
+              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\CongViecDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\CongViecDAL.cs",
+              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\CongViecDAL.cs",
+              "RelativeToolTip": "DAL\\CongViecDAL.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCwAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T14:22:59.786Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "CongViecDanhMucBLL.cs",
+              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\CongViecDanhMucBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\CongViecDanhMucBLL.cs",
+              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\CongViecDanhMucBLL.cs",
+              "RelativeToolTip": "BLL\\CongViecDanhMucBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:17:54.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "DanhMucDTO.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DTO\\DanhMucDTO.cs",
               "RelativeDocumentMoniker": "DTO\\DanhMucDTO.cs",
@@ -454,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CongViecDTO.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DTO\\CongViecDTO.cs",
               "RelativeDocumentMoniker": "DTO\\CongViecDTO.cs",
@@ -478,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Details.aspx",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Home\\Details.aspx",
               "RelativeDocumentMoniker": "FE\\Home\\Details.aspx",
@@ -490,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Todo.Master",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Todo.Master",
               "RelativeDocumentMoniker": "FE\\Todo.Master",
@@ -498,11 +511,12 @@
               "RelativeToolTip": "FE\\Todo.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-07T14:17:32.343Z"
+              "WhenOpened": "2024-12-07T14:17:32.343Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Site.Master",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Site.Master",
               "RelativeDocumentMoniker": "FE\\Site.Master",
@@ -514,19 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Login.aspx",
-              "RelativeDocumentMoniker": "FE\\Login.aspx",
-              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Login.aspx",
-              "RelativeToolTip": "FE\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T09:03:15.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Todo.Master.designer.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Todo.Master.designer.cs",
               "RelativeDocumentMoniker": "FE\\Todo.Master.designer.cs",
@@ -538,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Site.Mobile.Master",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Site.Mobile.Master",
               "RelativeDocumentMoniker": "FE\\Site.Mobile.Master",
@@ -550,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Site.css",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Content\\Site.css",
               "RelativeDocumentMoniker": "API\\Content\\Site.css",
@@ -562,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Login.aspx.cs",
               "RelativeDocumentMoniker": "FE\\Login.aspx.cs",
@@ -574,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "DanhMucBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\DanhMucBLL.cs",
               "RelativeDocumentMoniker": "BLL\\DanhMucBLL.cs",
@@ -657,18 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Frm_main.cs [Design]",
-              "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_main.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_main.cs",
-              "ToolTip": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_main.cs [Design]",
-              "RelativeToolTip": "GUI\\Frm_main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:01:34.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Contact.aspx",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Contact.aspx",
               "RelativeDocumentMoniker": "FE\\Contact.aspx",
@@ -680,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Default.aspx.cs",
               "RelativeDocumentMoniker": "FE\\Default.aspx.cs",
@@ -692,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "bootstrap-grid.css",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Content\\bootstrap-grid.css",
               "RelativeDocumentMoniker": "FE\\Content\\bootstrap-grid.css",
@@ -704,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\Web.config",
               "RelativeDocumentMoniker": "FE\\Web.config",
@@ -717,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\FE\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "FE\\App_Start\\BundleConfig.cs",
@@ -729,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "NhacNhoBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\NhacNhoBLL.cs",
               "RelativeDocumentMoniker": "BLL\\NhacNhoBLL.cs",
@@ -741,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "QLCONGVIEC.dbml",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DTO\\QLCONGVIEC.dbml",
               "RelativeDocumentMoniker": "DTO\\QLCONGVIEC.dbml",
@@ -752,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "QLCONGVIEC.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DTO\\QLCONGVIEC.cs",
               "RelativeDocumentMoniker": "DTO\\QLCONGVIEC.cs",
@@ -764,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "NguoiDungController.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\NguoiDungController.cs",
@@ -776,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "Uc_login.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\UserControls\\Uc_login.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_login.cs",
@@ -788,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "DM_ManHinhDAL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
               "RelativeDocumentMoniker": "DAL\\TaiKhoan\\DM_ManHinhDAL.cs",
@@ -800,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "QL_NguoiDungDAL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
               "RelativeDocumentMoniker": "DAL\\TaiKhoan\\QL_NguoiDungDAL.cs",
@@ -812,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "QL_NguoiDungDTO.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DTO\\TaiKhoan\\QL_NguoiDungDTO.cs",
               "RelativeDocumentMoniker": "DTO\\TaiKhoan\\QL_NguoiDungDTO.cs",
@@ -824,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "QL_PhanQuyenBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\TaiKhoan\\QL_PhanQuyenBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\QL_PhanQuyenBLL.cs",
@@ -836,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "QL_PhanQuyenDAL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\TaiKhoan\\QL_PhanQuyenDAL.cs",
               "RelativeDocumentMoniker": "DAL\\TaiKhoan\\QL_PhanQuyenDAL.cs",
@@ -848,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "QL_NhomNguoiDungBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\TaiKhoan\\QL_NhomNguoiDungBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\QL_NhomNguoiDungBLL.cs",
@@ -860,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "QL_NhomNguoiDungDAL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\TaiKhoan\\QL_NhomNguoiDungDAL.cs",
               "RelativeDocumentMoniker": "DAL\\TaiKhoan\\QL_NhomNguoiDungDAL.cs",
@@ -872,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "QL_NguoiDungNhomNguoiDungBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\TaiKhoan\\QL_NguoiDungNhomNguoiDungBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\QL_NguoiDungNhomNguoiDungBLL.cs",
@@ -884,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "QL_NguoiDungNhomNguoiDungDAL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\TaiKhoan\\QL_NguoiDungNhomNguoiDungDAL.cs",
               "RelativeDocumentMoniker": "DAL\\TaiKhoan\\QL_NguoiDungNhomNguoiDungDAL.cs",
@@ -896,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "DM_ManHinhBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\TaiKhoan\\DM_ManHinhBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\DM_ManHinhBLL.cs",
@@ -908,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "QL_NguoiDungBLL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\BLL\\TaiKhoan\\QL_NguoiDungBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoan\\QL_NguoiDungBLL.cs",
@@ -920,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Web.config",
               "RelativeDocumentMoniker": "API\\Web.config",
@@ -933,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "API\\App_Start\\WebApiConfig.cs",
@@ -945,7 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 75,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\FE\\Login.aspx.cs",
               "RelativeDocumentMoniker": "..\\..\\DoAnToDo\\TDL\\FE\\Login.aspx.cs",
@@ -956,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "API\\Views\\Shared\\_Layout.cshtml",
@@ -968,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "API\\Views\\Home\\Index.cshtml",
@@ -980,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "API\\Views\\Shared\\Error.cshtml",
@@ -992,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "Uc_login.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\UserControls\\Uc_login.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_login.cs",
@@ -1003,7 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 55,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\HomeController.cs",
@@ -1015,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 59,
               "Title": "packages.config",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\packages.config",
               "RelativeDocumentMoniker": "API\\packages.config",
@@ -1027,7 +1018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "Frm_main.Designer.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_main.Designer.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_main.Designer.cs",
@@ -1035,11 +1026,12 @@
               "RelativeToolTip": "GUI\\Frm_main.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:32:43.502Z"
+              "WhenOpened": "2024-11-17T14:32:43.502Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 57,
               "Title": "Frm_login.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_login.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_login.cs",
@@ -1051,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 58,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\API\\Global.asax.cs",
               "RelativeDocumentMoniker": "API\\Global.asax.cs",
@@ -1063,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 60,
               "Title": "Uc_login.Designer.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\UserControls\\Uc_login.Designer.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_login.Designer.cs",
@@ -1075,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 63,
               "Title": "Frm_CongViec.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_CongViec.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_CongViec.cs",
@@ -1086,7 +1078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 62,
               "Title": "dtp_ngayHetHan.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\Controls\\dtp_ngayHetHan.cs",
               "RelativeDocumentMoniker": "UC\\Controls\\dtp_ngayHetHan.cs",
@@ -1097,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 61,
               "Title": "dtp_ngayHetHan.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\Controls\\dtp_ngayHetHan.cs",
               "RelativeDocumentMoniker": "UC\\Controls\\dtp_ngayHetHan.cs",
@@ -1109,7 +1101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 64,
               "Title": "Txt_password.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\Controls\\Txt_password.cs",
               "RelativeDocumentMoniker": "UC\\Controls\\Txt_password.cs",
@@ -1121,7 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 65,
               "Title": "Frm_CongViec.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_CongViec.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_CongViec.cs",
@@ -1133,7 +1125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 66,
               "Title": "Uc_congViec.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\UserControls\\Uc_congViec.cs",
               "RelativeDocumentMoniker": "UC\\UserControls\\Uc_congViec.cs",
@@ -1145,7 +1137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 67,
               "Title": "DanhMucDAL.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\DAL\\DanhMucDAL.cs",
               "RelativeDocumentMoniker": "DAL\\DanhMucDAL.cs",
@@ -1157,7 +1149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 68,
               "Title": "Frm_login.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\GUI\\Frm_login.cs",
               "RelativeDocumentMoniker": "GUI\\Frm_login.cs",
@@ -1168,7 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 69,
               "Title": "Txt_username.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\Controls\\Txt_username.cs",
               "RelativeDocumentMoniker": "UC\\Controls\\Txt_username.cs",
@@ -1180,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 70,
               "Title": "Txt_username.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\Controls\\Txt_username.cs",
               "RelativeDocumentMoniker": "UC\\Controls\\Txt_username.cs",
@@ -1191,7 +1183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 71,
               "Title": "Txt_password.cs [Design]",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\PTPM_T3_A102_ToDoList_project\\TDL\\UC\\Controls\\Txt_password.cs",
               "RelativeDocumentMoniker": "UC\\Controls\\Txt_password.cs",
@@ -1202,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 72,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\BLL\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\DoAnToDo\\TDL\\BLL\\Class1.cs",
@@ -1213,7 +1205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 73,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\DTO\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\DoAnToDo\\TDL\\DTO\\Class1.cs",
@@ -1224,7 +1216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 74,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Learning\\2. Phat trien ung dung\\DoAnToDo\\TDL\\DAL\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\DoAnToDo\\TDL\\DAL\\Class1.cs",
