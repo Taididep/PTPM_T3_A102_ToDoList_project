@@ -8,5 +8,9 @@ namespace BLL.TaiKhoan
 {
     public class QL_ThongTinCaNhanBLL
     {
+        public object LayThongTinCaNhan(string tenDangNhap)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

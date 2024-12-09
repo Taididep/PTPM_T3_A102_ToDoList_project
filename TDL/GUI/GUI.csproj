@@ -70,7 +70,9 @@
     <Compile Include="Frm_login.Designer.cs">
       <DependentUpon>Frm_login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_QLNguoiDung.cs" />
+    <Compile Include="Frm_QLNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frm_QLNguoiDung.Designer.cs">
       <DependentUpon>Frm_QLNguoiDung.cs</DependentUpon>
     </Compile>

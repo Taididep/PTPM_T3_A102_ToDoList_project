@@ -35,7 +35,7 @@ namespace GUI
                 return _obj;
             }
         }
-        
+
         public void AddControlls(Form f)
         {
             panel1.Controls.Clear();
