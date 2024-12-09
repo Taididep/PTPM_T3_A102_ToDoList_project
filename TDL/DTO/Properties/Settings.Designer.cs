@@ -33,5 +33,16 @@ namespace DTO.Properties {
                 return ((string)(this["QLCONGVIECConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-DVT;Initial Catalog=QLCONGVIEC;Integrated Security=True;Encry" +
+            "pt=True;TrustServerCertificate=True")]
+        public string QLCONGVIECConnectionString1 {
+            get {
+                return ((string)(this["QLCONGVIECConnectionString1"]));
+            }
+        }
     }
 }
