@@ -16,3 +16,10 @@ D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\DTO\bin\Debu
 D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\DTO\bin\Debug\DTO.pdb
 D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\DTO\obj\Debug\DTO.dll
 D:\1LuuDuLieuSV\taidinh\DoAn\PTPM_T3_A102_ToDoList_project-main\TDL\DTO\obj\Debug\DTO.pdb
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\DTO\bin\Debug\DTO.dll.config
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\DTO\bin\Debug\DTO.dll
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\DTO\bin\Debug\DTO.pdb
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\DTO\obj\Debug\DTO.dll
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\DTO\obj\Debug\DTO.pdb
