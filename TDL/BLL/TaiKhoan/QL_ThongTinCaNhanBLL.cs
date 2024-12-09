@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.TaiKhoan
 {
-    internal class QL_ThongTinCaNhanBLL
+    public class QL_ThongTinCaNhanBLL
     {
     }
 }

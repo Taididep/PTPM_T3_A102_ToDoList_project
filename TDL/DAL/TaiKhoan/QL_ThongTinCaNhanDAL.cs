@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.TaiKhoan
 {
-    internal class QL_ThongTinCaNhanDAL
+    public class QL_ThongTinCaNhanDAL
     {
     }
 }

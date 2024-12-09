@@ -14,36 +14,55 @@ namespace DAL
         // Lấy danh sách tất cả Công Việc - Danh Mục
         public List<CongViecDanhMucDTO> GetAll()
         {
-            return qlcv.CongViecDanhMucs.Select(cvdm => new CongViecDanhMucDTO
-            {
-                MaCongViec = cvdm.MaCongViec,
-                MaDanhMuc = cvdm.MaDanhMuc
-            }).ToList();
+            return qlcv.CongViecDanhMucs
+                .Join(qlcv.DanhMucs,
+                      cvdm => cvdm.MaDanhMuc,
+                      dm => dm.MaDanhMuc,
+                      (cvdm, dm) => new CongViecDanhMucDTO
+                      {
+                          MaCongViec = cvdm.MaCongViec,
+                          MaDanhMuc = cvdm.MaDanhMuc,
+                          TenDanhMuc = dm.TenDanhMuc // Lấy tên danh mục từ bảng DanhMuc
+                      })
+                .ToList();
         }
+
 
         // Lấy danh sách theo MaCongViec
         public List<CongViecDanhMucDTO> GetByMaCongViec(int maCongViec)
         {
             return qlcv.CongViecDanhMucs
                 .Where(cvdm => cvdm.MaCongViec == maCongViec)
-                .Select(cvdm => new CongViecDanhMucDTO
-                {
-                    MaCongViec = cvdm.MaCongViec,
-                    MaDanhMuc = cvdm.MaDanhMuc
-                }).ToList();
+                .Join(qlcv.DanhMucs,
+                      cvdm => cvdm.MaDanhMuc,
+                      dm => dm.MaDanhMuc,
+                      (cvdm, dm) => new CongViecDanhMucDTO
+                      {
+                          MaCongViec = cvdm.MaCongViec,
+                          MaDanhMuc = cvdm.MaDanhMuc,
+                          TenDanhMuc = dm.TenDanhMuc // Lấy tên danh mục từ bảng DanhMuc
+                      })
+                .ToList();
         }
+
 
         // Lấy danh sách theo MaDanhMuc
         public List<CongViecDanhMucDTO> GetByMaDanhMuc(int maDanhMuc)
         {
             return qlcv.CongViecDanhMucs
                 .Where(cvdm => cvdm.MaDanhMuc == maDanhMuc)
-                .Select(cvdm => new CongViecDanhMucDTO
-                {
-                    MaCongViec = cvdm.MaCongViec,
-                    MaDanhMuc = cvdm.MaDanhMuc
-                }).ToList();
+                .Join(qlcv.DanhMucs,
+                      cvdm => cvdm.MaDanhMuc,
+                      dm => dm.MaDanhMuc,
+                      (cvdm, dm) => new CongViecDanhMucDTO
+                      {
+                          MaCongViec = cvdm.MaCongViec,
+                          MaDanhMuc = cvdm.MaDanhMuc,
+                          TenDanhMuc = dm.TenDanhMuc // Lấy tên danh mục từ bảng DanhMuc
+                      })
+                .ToList();
         }
+
 
         // Thêm mới Công Việc - Danh Mục
         public bool Insert(CongViecDanhMucDTO cvdmDTO)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO.TaiKhoan
 {
-    internal class QL_ThongTinCaNhanDTO
+    public class QL_ThongTinCaNhanDTO
     {
     }
 }
