@@ -67,6 +67,7 @@
     <Compile Include="TaiKhoan\QL_NguoiDungNhomNguoiDungDTO.cs" />
     <Compile Include="TaiKhoan\QL_NhomNguoiDungDTO.cs" />
     <Compile Include="TaiKhoan\QL_PhanQuyenDTO.cs" />
+    <Compile Include="TaiKhoan\QL_ThongTinCaNhanDTO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

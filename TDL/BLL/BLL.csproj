@@ -53,6 +53,7 @@
     <Compile Include="TaiKhoan\QL_NguoiDungNhomNguoiDungBLL.cs" />
     <Compile Include="TaiKhoan\QL_NhomNguoiDungBLL.cs" />
     <Compile Include="TaiKhoan\QL_PhanQuyenBLL.cs" />
+    <Compile Include="TaiKhoan\QL_ThongTinCaNhanBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

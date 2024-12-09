@@ -42,9 +42,24 @@ CREATE TABLE QL_PhanQuyen (
     FOREIGN KEY (MaNhomNguoiDung) REFERENCES QL_NhomNguoiDung(MaNhom),
     FOREIGN KEY (MaManHinh) REFERENCES DM_ManHinh(MaManHinh)
 );
+
+-- 6. Bảng Thông Tin Cá Nhân Tài Khoản
+CREATE TABLE QL_ThongTinCaNhan (
+    TenDangNhap NVARCHAR(50) PRIMARY KEY,
+    HoTen NVARCHAR(255) NOT NULL,
+    Email NVARCHAR(255) NOT NULL,
+    SoDienThoai NVARCHAR(15) NULL,
+    DiaChi NVARCHAR(255) NULL,
+    NgaySinh DATE NULL,
+    GioiTinh NVARCHAR(10) CHECK (GioiTinh IN ('Nam', 'Nữ', 'Khác')),
+    FOREIGN KEY (TenDangNhap) REFERENCES QL_NguoiDung(TenDangNhap)
+);
 GO
 
--- 6. Bảng Công Việc
+
+
+
+-- 7. Bảng Công Việc
 CREATE TABLE CongViec (
     MaCongViec INT IDENTITY(1,1) PRIMARY KEY,
     TenDangNhap NVARCHAR(50) NOT NULL,
@@ -55,7 +70,7 @@ CREATE TABLE CongViec (
     FOREIGN KEY (TenDangNhap) REFERENCES QL_NguoiDung(TenDangNhap)
 );
 
--- 7. Bảng Danh Mục
+-- 8. Bảng Danh Mục
 CREATE TABLE DanhMuc (
     MaDanhMuc INT IDENTITY(1,1) PRIMARY KEY,
     TenDangNhap NVARCHAR(50) NOT NULL,
@@ -63,7 +78,7 @@ CREATE TABLE DanhMuc (
     FOREIGN KEY (TenDangNhap) REFERENCES QL_NguoiDung(TenDangNhap)
 );
 
--- 8. Bảng Công Việc - Danh Mục
+-- 9. Bảng Công Việc - Danh Mục
 CREATE TABLE CongViecDanhMuc (
     MaCongViec INT,
     MaDanhMuc INT,
@@ -72,7 +87,7 @@ CREATE TABLE CongViecDanhMuc (
     FOREIGN KEY (MaDanhMuc) REFERENCES DanhMuc(MaDanhMuc)
 );
 
--- 9. Bảng Nhắc Nhở
+-- 10. Bảng Nhắc Nhở
 CREATE TABLE NhacNho (
     MaNhacNho INT IDENTITY(1,1) PRIMARY KEY,
     MaCongViec INT NOT NULL,
@@ -80,7 +95,7 @@ CREATE TABLE NhacNho (
     FOREIGN KEY (MaCongViec) REFERENCES CongViec(MaCongViec)
 );
 
--- 10. Bảng Lịch Sử Công Việc
+-- 11. Bảng Lịch Sử Công Việc
 CREATE TABLE LichSuCongViec (
     MaLichSu INT IDENTITY(1,1) PRIMARY KEY,
     MaCongViec INT NOT NULL,
