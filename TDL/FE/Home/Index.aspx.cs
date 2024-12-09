@@ -26,7 +26,126 @@ namespace FE.Home
                 {
                     await LoadDanhMucAsync(tenDangNhap);
                     await LoadDataAsync(tenDangNhap);
+                    await LoadDanhMucModalAsync(tenDangNhap);
                 }
+            }
+        }
+
+        protected void gvCongViec_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "Detail")
+            {
+                string maCongViec = e.CommandArgument.ToString();
+                Response.Redirect($"/Home/Details.aspx?MaCongViec={maCongViec}", false);
+            }
+            else if (e.CommandName == "Delete")
+            {
+                string maCongViec = e.CommandArgument.ToString();
+
+                // Xử lý xóa công việc
+                Task.Run(async () =>
+                {
+                    await DeleteCongViecAsync(maCongViec);
+                    var tenDangNhap = Session["TenDangNhap"] as string;
+                    await LoadDataAsync(tenDangNhap); // Tải lại danh sách sau khi xóa
+                }).GetAwaiter().GetResult();
+            }
+
+        }
+
+
+
+        protected async void btnSaveDanhMuc_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(hfMaCongViec.Value, out var maCongViec))
+            {
+                Response.Write("<script>alert('Mã công việc không hợp lệ!');</script>");
+                return;
+            }
+
+            if (!int.TryParse(ddlDanhMucModal.SelectedValue, out var maDanhMuc))
+            {
+                Response.Write("<script>alert('Mã danh mục không hợp lệ!');</script>");
+                return;
+            }
+
+            var url = "https://localhost:44341/api/CongViecDanhMuc/Insert";
+            var cvdm = new { MaCongViec = maCongViec, MaDanhMuc = maDanhMuc };
+
+            var response = await client.PostAsJsonAsync(url, cvdm);
+        }
+
+
+
+        protected async void btnDeleteDanhMuc_Click(object sender, EventArgs e)
+        {
+            var maCongViec = int.Parse(hfMaCongViec.Value);
+            var maDanhMuc = int.Parse(ddlDanhMucModal.SelectedValue);
+
+            var url = $"https://localhost:44341/api/CongViecDanhMuc/Delete/{maCongViec}/{maDanhMuc}";
+
+            var response = await client.DeleteAsync(url);
+
+        }
+
+
+
+
+        private async Task LoadDanhMucModalAsync(string tenDangNhap)
+        {
+            try
+            {
+                var url = $"https://localhost:44341/api/DanhMuc/GetByTenDangNhap/{tenDangNhap}";
+                var response = await client.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var danhMucs = await response.Content.ReadAsAsync<List<DanhMucDTO>>();
+                    ddlDanhMucModal.DataSource = danhMucs;
+                    ddlDanhMucModal.DataTextField = "TenDanhMuc";
+                    ddlDanhMucModal.DataValueField = "MaDanhMuc";
+                    ddlDanhMucModal.DataBind();
+
+                    ddlDanhMucModal.Items.Insert(0, new ListItem("Chọn danh mục", "0"));
+                }
+                else
+                {
+                    Response.Write("<script>alert('Không thể tải danh mục!');</script>");
+                }
+            }
+            catch (Exception ex)
+            {
+                Response.Write($"<script>alert('Lỗi: {ex.Message}');</script>");
+            }
+        }
+
+
+
+        private async Task LoadDanhMucAsync(string tenDangNhap)
+        {
+            try
+            {
+                var url = $"https://localhost:44341/api/DanhMuc/GetByTenDangNhap/{tenDangNhap}";
+                var response = await client.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var danhMucs = await response.Content.ReadAsAsync<List<DanhMucDTO>>();
+                    ddlDanhMuc.DataSource = danhMucs;
+                    ddlDanhMuc.DataTextField = "TenDanhMuc";
+                    ddlDanhMuc.DataValueField = "MaDanhMuc";
+                    ddlDanhMuc.DataBind();
+
+                    ddlDanhMuc.Items.Insert(0, new ListItem("Tất cả", "0"));
+                }
+                else
+                {
+                    Response.Write("<script>alert('Không thể tải danh mục!');</script>");
+                }
+            }
+            catch (Exception ex)
+            {
+                Response.Write($"<script>alert('Lỗi: {ex.Message}');</script>");
             }
         }
 
@@ -57,33 +176,6 @@ namespace FE.Home
             }
         }
 
-        private async Task LoadDanhMucAsync(string tenDangNhap)
-        {
-            try
-            {
-                var url = $"https://localhost:44341/api/DanhMuc/GetByTenDangNhap/{tenDangNhap}";
-                var response = await client.GetAsync(url);
-
-                if (response.IsSuccessStatusCode)
-                {
-                    var danhMucs = await response.Content.ReadAsAsync<List<DanhMucDTO>>();
-                    ddlDanhMuc.DataSource = danhMucs;
-                    ddlDanhMuc.DataTextField = "TenDanhMuc";
-                    ddlDanhMuc.DataValueField = "MaDanhMuc";
-                    ddlDanhMuc.DataBind();
-
-                    ddlDanhMuc.Items.Insert(0, new ListItem("Tất cả", "0"));
-                }
-                else
-                {
-                    Response.Write("<script>alert('Không thể tải danh mục!');</script>");
-                }
-            }
-            catch (Exception ex)
-            {
-                Response.Write($"<script>alert('Lỗi: {ex.Message}');</script>");
-            }
-        }
 
         protected async void ddlDanhMuc_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -100,27 +192,6 @@ namespace FE.Home
             }
         }
 
-
-        protected void gvCongViec_RowCommand(object sender, GridViewCommandEventArgs e)
-        {
-            if (e.CommandName == "Detail")
-            {
-                string maCongViec = e.CommandArgument.ToString();
-                Response.Redirect($"/Home/Details.aspx?MaCongViec={maCongViec}", false);
-            }
-            else if (e.CommandName == "Delete")
-            {
-                string maCongViec = e.CommandArgument.ToString();
-
-                // Xử lý xóa công việc
-                Task.Run(async () =>
-                {
-                    await DeleteCongViecAsync(maCongViec);
-                    var tenDangNhap = Session["TenDangNhap"] as string;
-                    await LoadDataAsync(tenDangNhap); // Tải lại danh sách sau khi xóa
-                }).GetAwaiter().GetResult();
-            }
-        }
 
         private async Task DeleteCongViecAsync(string maCongViec)
         {
@@ -211,6 +282,8 @@ namespace FE.Home
                 Response.Write($"<script>alert('Lỗi: {ex.Message}');</script>");
             }
         }
+
+
 
 
     }

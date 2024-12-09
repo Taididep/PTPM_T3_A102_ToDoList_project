@@ -1,7 +1,10 @@
 ﻿using DTO;
 using System;
+using System.Collections.Generic;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Web.UI;
 
 namespace FE.Home
@@ -14,12 +17,11 @@ namespace FE.Home
         {
             if (!IsPostBack)
             {
-                // Lấy giá trị MaCongViec từ query string
                 var maCongViec = Request.QueryString["MaCongViec"];
 
                 if (int.TryParse(maCongViec, out int maCongViecId))
                 {
-                    // Gọi API để lấy chi tiết công việc
+                    // Lấy chi tiết công việc
                     CongViecDTO congViec = await GetCongViecByIdAsync(maCongViecId);
 
                     if (congViec != null)
@@ -29,20 +31,66 @@ namespace FE.Home
                         txtMoTa.Text = congViec.MoTa;
                         txtNgayHetHan.Text = congViec.NgayHetHan?.ToString("yyyy-MM-dd") ?? "";
                         chkHoanThanh.Checked = congViec.HoanThanh;
+
+                        // Lấy danh mục của công việc
+                        var danhMucList = await GetDanhMucByMaCongViecAsync(maCongViecId);
+                        DisplayDanhMuc(danhMucList);
                     }
                     else
                     {
-                        // Trường hợp không tìm thấy công việc
                         Response.Write("<script>alert('Công việc không tồn tại');</script>");
                     }
                 }
                 else
                 {
-                    // Trường hợp không hợp lệ, không tìm thấy MaCongViec
                     Response.Write("<script>alert('Mã công việc không hợp lệ');</script>");
                 }
             }
         }
+
+        // Hiển thị danh mục lên điều khiển Literal
+        private void DisplayDanhMuc(List<DanhMucDTO> danhMucList)
+        {
+            var danhMucHtml = new StringBuilder(); // Dùng StringBuilder để nối chuỗi HTML
+
+            foreach (var item in danhMucList)
+            {
+                // Tạo một button cho mỗi danh mục
+                danhMucHtml.Append($"<button class='btn btn-outline-primary m-1' type='button'>{HttpUtility.HtmlEncode(item.TenDanhMuc)}</button>");
+            }
+
+            // Đặt HTML vào Literal để hiển thị trên trang
+            litDanhMuc.Text = danhMucHtml.ToString();
+        }
+
+        private async Task<List<DanhMucDTO>> GetDanhMucByMaCongViecAsync(int maCongViec)
+        {
+            try
+            {
+                // Gọi API để lấy danh mục theo MaCongViec
+                var response = await client.GetAsync($"https://localhost:44341/api/CongViecDanhMuc/GetByMaCongViec/{maCongViec}");
+
+                // Nếu trả về kết quả OK, parse response thành List<DanhMucDTO>
+                if (response.IsSuccessStatusCode)
+                {
+                    var danhMucList = await response.Content.ReadAsAsync<List<DanhMucDTO>>();
+                    return danhMucList;
+                }
+                else
+                {
+                    return new List<DanhMucDTO>(); // Nếu không có dữ liệu, trả về danh sách rỗng
+                }
+            }
+            catch (Exception ex)
+            {
+                // Xử lý lỗi kết nối
+                Response.Write("<script>alert('Không thể kết nối với API để lấy danh mục.');</script>");
+                return new List<DanhMucDTO>(); // Trả về danh sách rỗng trong trường hợp lỗi
+            }
+        }
+
+
+
 
         private async Task<CongViecDTO> GetCongViecByIdAsync(int maCongViec)
         {
