@@ -25,7 +25,10 @@
                         <a class="nav-link active" aria-current="page" href="Index.aspx">Trang chủ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Contact.aspx">Liên hệ</a>
+                        <a class="nav-link active" aria-current="page" href="DanhMuc.aspx">Danh mục</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Contact.aspx">Nhắc nhở</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">

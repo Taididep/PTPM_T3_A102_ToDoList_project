@@ -17,5 +17,10 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void Frm_CongViec_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

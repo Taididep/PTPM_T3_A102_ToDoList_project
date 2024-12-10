@@ -1,0 +1,12 @@
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\bin\Debug\BLL.dll
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\bin\Debug\BLL.pdb
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\bin\Debug\DAL.dll
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\bin\Debug\DTO.dll
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\bin\Debug\DAL.pdb
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\bin\Debug\DTO.pdb
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\bin\Debug\DTO.dll.config
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\obj\Debug\BLL.dll
+D:\Lesson\doAn3Chi\PTPM_T3_A102_ToDoList_project\TDL\BLL\obj\Debug\BLL.pdb

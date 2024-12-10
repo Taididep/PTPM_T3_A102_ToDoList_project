@@ -146,6 +146,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Home\DanhMuc.aspx" />
     <Content Include="Home\Details.aspx" />
     <Content Include="Home\Index.aspx" />
     <Content Include="Logout.aspx" />
@@ -237,6 +238,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home\DanhMuc.aspx.cs">
+      <DependentUpon>DanhMuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\DanhMuc.aspx.designer.cs">
+      <DependentUpon>DanhMuc.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home\Details.aspx.cs">
       <DependentUpon>Details.aspx</DependentUpon>

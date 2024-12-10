@@ -68,6 +68,7 @@
             this.Controls.Add(this.txt_tieuDe);
             this.Name = "Frm_CongViec";
             this.Text = "Frm_CongViec";
+            this.Load += new System.EventHandler(this.Frm_CongViec_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
